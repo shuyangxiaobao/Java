@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title></title>
+    <link rel="stylesheet" href="./css/home.css">
+    <script src="./js/common.js"></script>
+    <script src="./jq.js"></script>
+
+</head>
+
+
+<body>
+
+
+    <script>
+        const width = window.screen.width; //
+        const height = window.screen.height;
+
+        window.onload = function () {
+            document.getElementById("hometitle").addEventListener('click', function () {
+                // alert(this.innerHTML + " addEventListener");
+            })
+            fun1();
+        }
+
+        var fun1 = function () {
+            var market = document.getElementById('marketul');
+            $.ajax({
+                url: "http://rap2api.taobao.org/app/mock/233798/marketdata",
+                type: "GET", //请求方式为get
+                dataType: "json", //返回数据格式为json
+                success: function (data) { //请求成功完成后要执行的方法 
+                    console.log(data);
+                    for (var i = 0; i < data.data.length; i++) {
+                        var model = data.data[i];
+                        market.innerHTML += fun3(model);
+                    }
+                }
+            })
+            var news = document.getElementById('newsid');
+            $.ajax({
+                url: "http://rap2api.taobao.org/app/mock/233798/news",
+                type: "GET",
+                dataType: "json",
+                success: function (dataSource) {
+                    var data = dataSource.result.result;
+                    for (var i = 0; i < data.length; i++) {
+                        var model = data[i];
+                        news.innerHTML += _setNewsfun(model, i);
+                        // document.getElementById('newscell').addEventListener('click', function (model) {
+                        //     alert("222");
+                        // })
+
+                    }
+                    document.getElementById('newscell').addEventListener('click', function (model) {
+                        alert("222");
+                    })
+                    news.innerHTML += "<li style=\"height: 59px; width: 100%;\"></li>";
+
+
+                }
+            })
+        }
+
+
+        var _functiontimetrans = function (date) {
+            var date = new Date(date);//如果date为13位不需要乘1000
+
+            var Y = date.getFullYear() + '-';
+
+            var M = (date.getMonth() + 1 < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1) + '-';
+
+            var D = (date.getDate() < 10 ? '0' + (date.getDate()) : date.getDate()) + ' ';
+
+            var h = (date.getHours() < 10 ? '0' + date.getHours() : date.getHours()) + ':';
+
+            var m = (date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes()) + ':';
+
+            var s = (date.getSeconds() < 10 ? '0' + date.getSeconds() : date.getSeconds());
+
+            return Y + M + D + h + m + s;
+        }
+
+        var fun2 = function (model) {
+
+            return "<li>\
+            <div class=\"divdata\">\
+                <div style=\"display: flex;flex-direction: column;width: 80.3%;\">\
+                    <div id=\"topView\">\
+                        <label for=\"\" class=\"instrumentIDClass\">FO1908</label>\
+                        <label for=\"\" class=\"lastPriceClass\">518.50</label>\
+                    </div>\
+                    <div id=\"bottomView\">\
+                        <label for=\"\" class=\"volumeClass\">Vol:30</label>\
+                        <label for=\"\" class=\"openinsetClass\">OI:88</label>\
+                        <label for=\"\" class=\"upperDownClass\">+1.2%</label>\
+                    </div>\
+                </div>\
+                <img src=\"./img/Collection-Click@3x.png\" alt=\"\" class=\"collectimg\">\
+            </div>\
+        </li>";
+        }
+
+        var fun3 = function (model) {
+            var collectStatus = "./img/Collection@3x.png";
+            if (model.collectStatus) {
+                collectStatus = "./img/Collection-Click@3x.png";
+            }
+            return "<li>\
+            <div class=\"divdata\">\
+                <div style=\"display: flex;flex-direction: column;width: 80.3%;\">\
+                    <div id=\"topView\">\
+                        <label for=\"\" class=\"instrumentIDClass\">"+ model.title + "</label>\
+                        <label for=\"\" class=\"lastPriceClass\">"+ model.lastPrice + "</label>\
+                    </div>\
+                    <div id=\"bottomView\">\
+                        <label for=\"\" class=\"volumeClass\">"+ model.volume + "</label>\
+                        <label for=\"\" class=\"openinsetClass\">OI:"+ model.openPositions + "</label>\
+                        <label for=\"\" class=\"upperDownClass\">"+ fun4(model.upDownPercent * 0.01) + "%" + "</label>\
+                    </div>\
+                </div>\
+                <img src=\""+ collectStatus + "\" alt=\"\" class=\"collectimg\">\
+            </div>\
+        </li>";
+        }
+
+        var fun4 = function (data) {
+            if (data > 0) {
+                return "+" + data.toFixed(1);
+            } else {
+                return data.toFixed(1);
+            }
+        }
+
+
+        var _setNewsfun = function (model, index) {
+            var str = model;
+            // console.log(model);
+
+            var str2 = JSON.stringify(str);
+            console.log(str2);
+            str3 = str2.replace(" ", "52088");
+            while (str3.indexOf(" ") != -1) {
+                str3 = str3.replace(" ", "52088");
+            }
+            console.log(str3);
+            return "<li id=\"newscell\" onclick={newsCellClick(" + str3 + ")}>\
+                        <div for=\"\" class=\"newstitle\">"+ model.title + "</div>\
+                        <span class=\"time\">"+ _functiontimetrans(model.createDate) + "</span>\
+                        <span class=\"liulan\">"+ model.browseNum + "浏览</span>\
+                    </li>";
+
+        }
+        function newsCellClick(model) {
+            // console.log(model);
+            // alert(model.title.replace("52088",""));
+            var str = model.title;
+            while (str.indexOf("52088") != -1) {
+                str = str.replace("52088", " ");
+            }
+            alert(str);
+            window.location.href = model.url;
+        }
+
+
+        function getAutoWidth(wid) {
+            return wid * width / 375;
+        }
+
+        function myClick(item) {
+            // alert(item);
+        }
+        function jumpToPage(param) {
+            window.location.href = param;     //在同当前窗口中打开窗口
+        }
+
+        name = "xiaobao";
+
+    </script>
+    <div id="div1">
+        <img src="./img/menu@3x.png" alt="加载失败" id="imgOne" onclick="myClick('传值')">
+        <h1 id="hometitle">Home</h1>
+        <img src="./img/Message@3x.png" alt="加载失败" id="imgtwo" onclick="myClick('传值')">
+    </div>
+    <div style="height: 64px;"></div>
+    <div>
+    </div>
+    <img id="image1" src="http://abc.2008php.com/2014_Website_appreciate/2014-03-16/20140316035028.jpg" alt="">
+    </div>
+    <div class="div2">
+        <label for="" class="label1">Market Data</label>
+        <img src="./img/more copy@3x.png" alt="" class="image2">
+    </div>
+    <ul id="marketul">
+        <li>
+            <div class="divdata">
+                <div style="display: flex;flex-direction: column;width: 80.3%;">
+
+                    <div id="topView">
+                        <label for="" class="instrumentIDClass">FO1908</label>
+                        <label for="" class="lastPriceClass">518.50</label>
+                    </div>
+                    <div id="bottomView">
+                        <label for="" class="volumeClass">Vol:30</label>
+                        <label for="" class="openinsetClass">OI:88</label>
+                        <label for="" class="upperDownClass">+1.2%</label>
+                    </div>
+                </div>
+                <img src="./img/Collection-Click@3x.png" alt="" class="collectimg">
+            </div>
+        </li>
+    </ul>
+    <div class="div2">
+        <label for="" class="label1">News</label>
+        <img src="./img/more copy@3x.png" alt="" class="image2">
+    </div>
+
+    <ul id="newsid">
+        <li>
+            <div for="" class="newstitle">Introduction to Delivery Process of APEX fo And SHFE FU &#91CHINESE]</div>
+            <span class="time">2019-05-23 09:36</span>
+            <span class="liulan">4859浏览</span>
+        </li>
+        <!-- <li>
+            <div for="" class="newstitle">Introduction to Delivery Process of APEX fo And SHFE FU &#91CHINESE]</div>
+            <span class="time">2019-05-23 09:36</span>
+            <span class="liulan">4859浏览</span>
+        </li>
+        <li>
+            <div for="" class="newstitle">Introduction to Delivery Process of APEX fo And SHFE FU &#91CHINESE]</div>
+            <span class="time">2019-05-23 09:36</span>
+            <span class="liulan">4859浏览</span>
+        </li>
+        <li>
+            <div for="" class="newstitle">Introduction to Delivery Process of APEX fo And SHFE FU &#91CHINESE]</div>
+            <span class="time">2019-05-23 09:36</span>
+            <span class="liulan">4859浏览</span>
+        </li>
+        <li style="height: 49px; width: 100%;"></li> -->
+
+
+    </ul>
+    </div>
+
+
+
+
+    <ul id="bottomdiv">
+
+        <li class="bottomli" onclick={newsCellClick('123')}>
+            <img src="./img/tabbar/homeClick.png" alt="" class="bottomdivimg">
+            <label for="" class="bottomLab" style="color: #387CFE;">Home</label>
+        </li>
+        <li class="bottomli">
+            <a href="./data.html" class="bottomli">
+                <img src="./img/tabbar/data.png" alt="" class="bottomdivimg">
+                <label for="" class="bottomLab">Data</label>
+            </a>
+        </li>
+        <li class="bottomli">
+            <a href="./news.html" class="bottomli">
+                <img src="./img/tabbar/news.png" alt="" class="bottomdivimg">
+                <label for="" class="bottomLab">News</label>
+            </a>
+
+        </li>
+        <li class="bottomli" onclick="jumpToPage('./me.html')">
+            <img src="./img/tabbar/products.png" alt="" class="bottomdivimg">
+            <label for="" class="bottomLab">me</label>
+        </li>
+    </ul>
+
+</body>
+
+</html>

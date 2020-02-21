@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title></title>
+    <!-- <link rel="stylesheet" href="./css/me.css"> -->
+    <style>
+        body {
+            min-width: 320px;
+            font-family: Microsoft Yahei, Arial;
+            background: #21212b;
+            font-size: 0.5rem;
+            margin: 0 auto !important;
+            /*滚动条卡顿*/
+            -webkit-overflow-scrolling: touch;
+            overflow-scrolling: touch;
+            height: 667px;
+            position: relative;
+        }
+
+        #backdiv,
+        #backdiv1 {
+            color: #ffffff;
+            padding: 24px 0 0 15px;
+        }
+    </style>
+    <script src="./js/common.js"></script>
+
+</head>
+
+
+<body>
+
+
+    <script>
+        const width = window.screen.width; //
+        const height = window.screen.height;
+
+        function getAutoWidth(wid) {
+            return wid * width / 375;
+        }
+
+        function myClick(item) {
+            alert(item);
+        }
+        function jumpToPage(param) {
+            window.location.href = param;     //在同当前窗口中打开窗口
+        }
+        function functionTest(params) {
+
+            alert(params);
+        }
+
+        function myFunction() {
+            var str = "a,b,c,d,e,f";
+            var arr = str.split(",");
+
+        }
+
+        function settimeShow(){
+            var date = new Date();
+            var year = date.getFullYear();
+            var month = date.getMonth()+1;
+            var day = date.getDate();
+            var hour = date.getHours();
+            var minute = date.getMinutes();
+            var second = date.getSeconds();
+
+            document.getElementById('username').innerHTML = year + "年" + month + "月" + day + "日"+hour+"时"+minute+"分"+second+"秒";
+        }
+
+
+
+        window.onload = function () {
+
+            setInterval(() => {
+                settimeShow();
+            }, 500);
+
+
+            document.getElementById('backdiv').addEventListener('click', function () {
+                window.history.back();
+            });
+            document.getElementById('backdiv1').addEventListener('click', function () {
+                str = "12,34,56,78,9";
+
+                arr = ["a", "bc", "tyu"]
+                // alert(str.length); //12
+                // alert(str.constructor); 
+                // alert(str.charAt(2)); //n
+                // alert(str[3]); // i
+                // alert(str.charCodeAt(0));  //97 
+
+                // alert(str.concat('😄')); //aAnimeide Ani😄
+                // alert(str.indexOf("A")); // 1
+                // alert(str.lastIndexOf('A')); //10
+
+                // alert(str.match('meide'));
+                // alert(str.replace("meide","123"));
+                // alert(str.search("n")); //2
+                // slice() 方法用于提取字符串中介于两个指定下标之间的字符。 stringObject.slice(start,stop)
+                // alert(str.slice(2,6)); //  slice(start,end);
+
+                // alert(str.split(",")[1]); // split 字符串变成数组
+
+                //substr() 方法可在字符串中抽取从 start 下标开始的指定数目的字符。 stringObject.substr(start,length)
+                // alert(str.substr(3,5));
+
+                // substring() 方法用于提取字符串中介于两个指定下标之间的字符。   stringObject.substring(start,stop)
+                // alert(str.substring(2,6));
+
+                alert(str.valueOf());
+
+
+
+
+
+                // alert(str.length);
+
+            });
+
+
+
+        }
+    </script>
+    <div style="width: 100%;height: 64px;background-color: #21212b;">
+        <div id="backdiv">返回</div>
+    </div>
+    <div id="backdiv1">点击测试1</div>
+
+    <div style="color: aquamarine; width: 100%;height: 100px;" id="username">33</div>
+
+
+
+
+
+
+</body>
+
+</html>

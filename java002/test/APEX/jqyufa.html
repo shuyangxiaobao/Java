@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title></title>
+    <!-- <link rel="stylesheet" href="./css/me.css"> -->
+    <style>
+        body {
+            min-width: 320px;
+            font-family: Microsoft Yahei, Arial;
+            background: #21212b;
+            font-size: 0.5rem;
+            margin: 0 auto !important;
+            /*滚动条卡顿*/
+            -webkit-overflow-scrolling: touch;
+            overflow-scrolling: touch;
+            height: 667px;
+            position: relative;
+        }
+
+        #backdiv,
+        #backdiv1 {
+            color: #ffffff;
+            padding: 24px 0 0 15px;
+        }
+
+        .class1,
+        div {
+            color: #ffffff;
+        }
+    </style>
+    <script src="./js/common.js"></script>
+    <script src="./jq.js"></script>
+
+</head>
+
+
+<body>
+
+
+    <script>
+        $(function () {
+
+            // 元素选择器
+            // $("div").click(function(){
+            //     alert(this.innerHTML);
+            // })
+
+            // id 选择器
+            // $('#backdiv').click(function(){
+            //     // alert("00");
+            //     $(this).hide();
+            // })
+            // class 选择器
+            // $('.class1').click(function(){
+            //     $("#username").hide();
+            //     $(this).hide();
+            // })
+            $('p.class1').click(function () {
+                $(this).hide();
+            })
+
+            // $('#hezi').click(function(){
+            //     alert('click');
+            // })
+
+
+            // $("#input").keydown(function () {
+            //     $(this).css("color","#ff9900");
+            //     console.log('keydown');
+            // })
+            // $('#input').blur(function(){
+            //     $(this).css("color","#000000")
+            // })
+
+
+
+            // $("input").focus(function () {
+            //     $(this).css("background-color", "#cccccc");
+            // });
+
+
+
+            // $('#hezi').hover(function(){
+            //    console.log('111');
+            // },function(){
+            //     console.log('222');
+            // })
+
+            $('#button0').click(function () {
+                $('#hezi').hide();
+                // alert(this.innerHTML);
+                if (this.innerHTML == "隐藏") {
+                    this.innerHTML = "显示";
+                    $('#hezi').hide();
+                } else {
+                    this.innerHTML = "隐藏";
+                    $('#hezi').show();
+                }
+            })
+
+            $('#button1').click(function () {
+                $('#hezi').fadeIn('1000', function () {
+                    // alert('ddd');
+                })
+            })
+            $('#button2').click(function () {
+                $('#hezi').fadeOut('1000', function () {
+                    // alert('ddd');
+                })
+            })
+
+            $('#button3').click(function () {
+                $('#hezi').fadeToggle('3000', function () {
+
+                })
+            })
+            $('#button4').click(function () {
+                $('#hezi').fadeTo(1000, 0.5, function () {
+
+                })
+            })
+
+            $('#button5').click(function () {
+                $('#hezi').slideDown(5000, function () {
+                })
+            })
+            $('#button6').click(function () {
+                $('#hezi').slideUp(5000, function () {
+                })
+            })
+            $('#button7').click(function () {
+                $('#hezi').slideToggle(5000, function () {
+                })
+            })
+
+            $('#button8').click(function () {
+                $('#hezi').animate({
+                    opacity: '0.5',
+                    height: '50px',
+                    width: '+=50px',
+                    left: '300px'
+                });
+
+            })
+
+
+            $('#button10').click(function () {
+                $('#hezi').animate({
+                    // width: 'toggle',
+                    // height:"toggle",
+                    backgroundColor: 'toggle'
+                });
+
+            })
+
+            $('#button11').click(function () {
+                var div = $("#hezi");
+                div.animate({ height: '300px', opacity: '0.4' }, 5000);
+                // div.animate({ width: '300px', opacity: '0.8' }, "slow");
+                // div.animate({ height: '100px', opacity: '0.4' }, "slow");
+                // div.animate({ width: '100px', opacity: '0.8'}, "slow");
+
+            })
+
+            $('#stop').click(function () {
+                var div = $("#hezi");
+                div.stop();
+
+            })
+
+            $('#button12').click(function () {
+                var div = $("#hezi");
+                div.fadeIn(3000).fadeOut(3000).fadeToggle(3000).fadeToggle(2000);
+
+            })
+
+            $('#button13').click(function () {
+                var aa = $("#runoob");
+                alert(aa.text());
+                alert(aa.html());
+                alert(aa.attr('href'));
+
+                var input = $("#input");
+                alert(input.val());
+
+            })
+
+            $('#button14').click(function () {
+                var div = $('#div001');
+                // div.text("34567898765");
+                // div.html("<h5>343434</h5>");
+                // var input = $("#input");
+                // input.val('hhhhhhh');
+
+                // div.html(function (index, originText) {
+                //     return index + originText + "new";
+                // })
+
+                // var aa = $("#runoob");
+
+                // aa.attr({
+                //     "href": "http://baidu.com",
+                // })
+
+                // aa.attr("href", function (index, originValue) {
+
+                // })
+
+                // div.empty();
+                div.css("background-color","yellow");
+                alert(div.css("background-color"));
+
+            })
+
+            var text1 = "<p>test1</p>";
+            var text2 = $("<p></p>").text = "test2";
+            var test3 = document.createElement("p");
+            text3.innerHTML = "test3";
+            $('body').append(text1,text2.text3);
+            alert('22');
+
+          
+
+
+
+
+
+
+
+        })
+
+
+    </script>
+    <div id="backdiv">id 选择器</div>
+    <div>元素选择器</div>
+    <div class="class1">class选择器1</div>
+    <div class="class1">class选择器2</div>
+    <div class="class1">class选择器3</div>
+    <p class="class1">p class选择器</p>
+
+    <button id="button0">隐藏</button>
+    <button id="button1">淡入</button>
+    <button id="button2">淡出</button>
+    <button id="button3">淡入淡出切换</button>
+    <button id="button4">fadeTo</button>
+    <br />
+    <button id="button5">slideDown</button>
+    <button id="button6">slideUp</button>
+    <button id="button7">slideToggle</button>
+
+    <br>
+    <button id="button8">animate动画:</button>
+    <button id="button9">animate使用相对值</button>
+    <button id="button10">animate使用预定义的值</button>
+    <button id="button11">animate使用队列功能</button>
+    <button id="button12">链式调用</button>
+
+    <br>
+    <button id="stop">停止动画</button>
+    <br>
+    <button id="button13">button13</button>
+    <button id="button14">text()</button>
+    <button id="button15">html()</button>
+    <button id="button16">val()</button>
+
+
+
+    <p><a href="http://www.runoob.com" id="runoob" style="font-size: 22px;">菜鸟教程</a></p>
+
+
+    <div style="width: 200px;height: 50px;background-color: #ff0f00;position:absolute" id="hezi"></div>
+
+
+    <div style="color: aquamarine; width: 100%;height: 50px;" id="username">33</div>
+    <br> <br> <br> <br> <br>
+
+
+    <input type="text" id="input">
+    <div style="color: #ffffff;" id="div001">默认值<div>4343434</div> </div>
+
+
+
+</body>
+
+</html>

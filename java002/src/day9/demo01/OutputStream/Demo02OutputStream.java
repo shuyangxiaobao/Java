@@ -1,6 +1,7 @@
 package day9.demo01.OutputStream;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Arrays;
@@ -13,12 +14,18 @@ import java.util.Arrays;
 public class Demo02OutputStream {
     public static void main(String[] args) throws IOException {
         //创建FileOutputStream对象,构造方法中绑定要写入数据的目的地
-        FileOutputStream fos = new FileOutputStream(new File("09_IOAndProperties\\b.txt"));
+        FileOutputStream fos = new FileOutputStream(new File("/Users/xiaobao/Desktop/22.txt"));
         //调用FileOutputStream对象中的方法write,把数据写入到文件中
         //在文件中显示100,写个字节
         fos.write(49);
         fos.write(48);
         fos.write(48);
+        fos.write(50);
+
+        if (true) {
+        	fun1();
+//        	return;
+        }
 
         /*
             public void write(byte[] b)：将 b.length字节从指定的字节数组写入此输出流。
@@ -48,4 +55,30 @@ public class Demo02OutputStream {
         //释放资源
         fos.close();
     }
+    
+    private static void fun1() throws IOException {
+    	FileOutputStream fs = new FileOutputStream("/Users/xiaobao/Desktop/24.txt");
+    	byte[] bytes = {65,66,67,68,69};
+    	fs.write(bytes);
+    	fs.write(bytes,2,2);
+    	
+    	
+    	
+    	byte[] bytes2 = "你妹的".getBytes();
+    	fs.write(bytes2);
+    	fs.close();
+
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+

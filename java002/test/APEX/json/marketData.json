@@ -1,0 +1,36 @@
+{
+    "data":[
+        {
+            "title":"FO1908",
+            "volume":30,
+            "openPositions":88,
+            "lastPrice":518,
+            "upDownPercent":1.2,
+            "collectStatus":false
+        },
+        {
+            "title":"CPF1907",
+            "volume":30,
+            "openPositions":88,
+            "lastPrice":518,
+            "upDownPercent":1.2,
+            "collectStatus":false
+        },
+        {
+            "title":"PF1907",
+            "volume":30,
+            "openPositions":88,
+            "lastPrice":518,
+            "upDownPercent":1.2,
+            "collectStatus":false
+        },
+        {
+            "title":"UC1905W5",
+            "volume":30,
+            "openPositions":88,
+            "lastPrice":518,
+            "upDownPercent":1.2,
+            "collectStatus":false
+        }
+    ]
+}

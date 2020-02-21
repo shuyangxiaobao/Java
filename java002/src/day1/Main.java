@@ -205,14 +205,24 @@ public class Main {
 
 	}
 
-	public static void main(String[] args) {
-		fun7();
+	public static void main(String[] args) throws ParseException {
+		fun8();
 		//		try {
 		//			fun3();
 		//		} catch (ParseException e) {
 		//			// TODO Auto-generated catch block
 		//			e.printStackTrace();
 		//		}	
+	}
+	
+	private static void xlp() throws ParseException {
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy年MM月dd日 HH:mm:ss");
+		Date startDate = sdf.parse("2012年09月29日 00:00:00");
+		Date enDate = sdf.parse("2020年01月20日 00:00:00");
+		long start = startDate.getTime();
+		long end = enDate.getTime();
+		long result = (end - start)/1000/3600/24;
+		System.out.println("相识"+result+"天");//相识2669天
 	}
 
 

@@ -37,10 +37,10 @@ import java.io.IOException;
 public class Demo01InputStream {
     public static void main(String[] args) throws IOException {
         //1.创建FileInputStream对象,构造方法中绑定要读取的数据源
-        FileInputStream fis = new FileInputStream("09_IOAndProperties\\c.txt");
+        FileInputStream fis = new FileInputStream("/Users/xiaobao/Desktop/22.txt");
         //2.使用FileInputStream对象中的方法read,读取文件
         //int read()读取文件中的一个字节并返回,读取到文件的末尾返回-1
-        /*int len = fis.read();
+        int len = fis.read();
         System.out.println(len);//97 a
 
         len = fis.read();
@@ -53,7 +53,7 @@ public class Demo01InputStream {
         System.out.println(len);//-1
 
         len = fis.read();
-        System.out.println(len);//-1*/
+        System.out.println(len);//-1
 
         /*
             发现以上读取文件是一个重复的过程,所以可以使用循环优化
@@ -65,11 +65,11 @@ public class Demo01InputStream {
                 2.len = fis.read():把读取到的字节赋值给变量len
                 3.(len = fis.read())!=-1:判断变量len是否不等于-1
          */
-        int len = 0; //记录读取到的字节
-        while((len = fis.read())!=-1){
-            System.out.print(len);//abc
+         int len2 = 0; //记录读取到的字节
+        FileInputStream fis2 = new FileInputStream("/Users/xiaobao/Desktop/22.txt");
+        while((len2 = fis2.read())!=-1){
+            System.out.print(len2);//abc
         }
-
         //3.释放资源
         fis.close();
     }

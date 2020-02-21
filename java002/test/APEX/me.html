@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title></title>
+    <link rel="stylesheet" href="./css/me.css">
+    <script src="./js/common.js"></script>
+
+</head>
+
+
+<body>
+
+
+    <script>
+        const width = window.screen.width; //
+        const height = window.screen.height;
+
+        function getAutoWidth(wid) {
+            return wid * width / 375;
+        }
+
+        function myClick(item) {
+            alert(item);
+        }
+        function jumpToPage(param) {
+            window.location.href = param;     //在同当前窗口中打开窗口
+        }
+        function functionTest(params) {
+
+            alert(params);
+        }
+
+        function myFunction() {
+            var str = "a,b,c,d,e,f";
+            var arr = str.split(",");
+
+        }
+
+        window.onload = function () {
+            // document.getElementById('username').innerHTML = "修改后的数值";
+            document.getElementById('username').innerHTML = "<strong>333</strong>";
+            document.getElementsByClassName('hhhh')[0].src = "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1571133474192&di=ac24746f372b7a15271ed9e6dca2dc6f&imgtype=0&src=http%3A%2F%2Fwww.tbw-xie.com%2FtuxieJDEwLmFsaWNkbi5jb20vaTIvNTA2OTQwNTcyL1RCMmdyWUluRFhZQmVOa0hGcmRYWGNpdVZYYV8hITUwNjk0MDU3MiQ5.jpg";
+
+            document.getElementById("hometitle").addEventListener('click', function () {
+                alert(this.innerHTML + " addEventListener");
+            })
+            // document.getElementById('imgtwo').addEventListener('click',functionTest);
+            document.getElementById('imgtwo').addEventListener('click', function () {
+                functionTest('传递参数')
+            });
+
+            document.getElementById('imgtwo').addEventListener('click', () => { alert('箭头函数') });
+            document.getElementById('imgtwo').addEventListener('click', () => { functionTest('箭头函数 传递参数') });
+            document.getElementById('imgtwo').addEventListener('mouseover', () => { functionTest('mouseover 箭头函数 传递参数') });
+            document.getElementById('imgtwo').addEventListener('mouseout', () => { functionTest('mouseout 箭头函数 传递参数') });
+
+            document.getElementById('imgtwo').removeEventListener('mouseover', () => { functionTest('mouseover 箭头函数 传递参数') });
+            document.getElementById('imgtwo').removeEventListener('mouseout', () => { functionTest('mouseout 箭头函数 传递参数') });
+
+
+            window.addEventListener("resize", function () {
+                document.getElementById("hometitle").innerHTML = this.width;
+            });
+
+
+            var para = document.createElement("div");
+            var node = document.createTextNode("js 语法");
+            para.appendChild(node);
+            para.style.color = "#ffffff";
+            para.style.width = "100%";
+            para.style.textAlign = 'center';
+            var element = document.getElementById('test');
+            element.appendChild(para);
+            para.addEventListener('click',()=>{jumpToPage('./jsyufa.html')});
+
+
+            var para = document.createElement("div");
+            var node = document.createTextNode("jq 语法");
+            para.appendChild(node);
+            para.style.color = "#ffffff";
+            para.style.width = "100%";
+            para.style.textAlign = 'center';
+            var element = document.getElementById('test');
+            element.appendChild(para);
+            para.addEventListener('click',()=>{jumpToPage('./jqyufa.html')});
+
+
+
+
+
+
+
+        }
+    </script>
+    <div id="div1">
+        <img src="./img/menu@3x.png" alt="加载失败" id="imgOne" onclick="myClick('传值')">
+        <h1 id="hometitle">me</h1>
+        <img src="./img/Message@3x.png" alt="加载失败" id="imgtwo">
+    </div>
+    <div style="height: 64px;"></div>
+
+    <div style="width: 100%; padding: 0px;" id="meOneDiv">
+        <div style="" id="meonedivleft">
+            <div id="username">USERNAME</div>
+            <div id="userid"> UserID12340001</div>
+        </div>
+        <div style="padding: 0px;margin: 0px;height: 94px;">
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1571133474193&di=48bae20dfee48e63eee4698290b12783&imgtype=0&src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F6e4be938eb5f3c2e63bf334b1654c81d7be960db.jpg"
+                alt="" class="meHeadimage hhhh">
+        </div>
+    </div>
+
+
+    <div>
+        <div style="height: 20px;"></div>
+    </div>
+
+    <div id="accountdiv">
+        <img src="./img/me/me-account@3x.png" alt="" id="accountimage">
+        <p id="accountText">Account</p>
+        <img src="./img/more copy@3x.png" alt="" id="accountDetailimage">
+    </div>
+    <div class="line"></div>
+
+    <div id="favoriteinvitediv">
+        <div id="favoritesdiv">
+            <img src="./img/me/Favorites@3x.png" alt="" id="favoriteimg">
+            <div id="favoritesdivTwo">
+                <div id="favoritestitle">Favorites</div>
+                <div id="favoritesDes">Favorites&readinghistory</div>
+            </div>
+        </div>
+        <div id="invitediv">
+            <img src="./img/me/Invite@3x.png" alt="" id="inviteimg">
+            <div id="invitedivTwo">
+                <div id="invitetitle">Invite Friends</div>
+                <div id="inviteDes">Invite friends to share </div>
+            </div>
+        </div>
+    </div>
+
+
+    <img src="./img/me/hengfu@3x.png" alt="" style="width: 100%;margin-top: 25px;">
+
+
+    <div>
+        <div style="height: 53px;line-height: 53px;  text-align: right;">
+            <div class="nightClass">Night mode</div>
+            <img src="./img/more copy@3x.png" alt="" class="moreDetailimage">
+
+        </div>
+        <div class="line"></div>
+
+        <div style="height: 53px;line-height: 53px; text-align: right;">
+            <div class="nightClass">Setting</div>
+            <img src="./img/more copy@3x.png" alt="" class="moreDetailimage">
+        </div>
+        <div class="line"></div>
+
+        <div style="height: 53px;line-height: 53px; text-align: right;">
+            <div class="nightClass">Feedback</div>
+            <img src="./img/more copy@3x.png" alt="" class="moreDetailimage">
+        </div>
+        <div class="line"></div>
+
+
+    </div>
+
+    <div id="test"></div>
+
+
+
+
+    <ul id="bottomdiv">
+
+        <li class="bottomli" onclick="">
+            <a href="./home.html" class="bottomli">
+
+                <img src="./img/tabbar/home.png" alt="" class="bottomdivimg">
+                <label for="" class="bottomLab">Home</label>
+            </a>
+        </li>
+        <li class="bottomli">
+            <a href="./data.html" class="bottomli">
+                <img src="./img/tabbar/data.png" alt="" class="bottomdivimg">
+                <label for="" class="bottomLab">Data</label>
+            </a>
+        </li>
+        <!-- onclick="jumpToPage('./newsAnnouncement.html')"
+        onclick="this.jumpToPage('./news.html')" -->
+        <li class="bottomli" onclick="jumpToPage('./news.html')">
+            <img src="./img/tabbar/news.png" alt="" class="bottomdivimg">
+            <label for="" class="bottomLab">News</label>
+        </li>
+        <li class="bottomli">
+            <img src="./img/tabbar/productsClick.png" alt="" class="bottomdivimg">
+            <label for="" class="bottomLab" style="color: #387CFE;">me</label>
+        </li>
+    </ul>
+
+</body>
+
+</html>

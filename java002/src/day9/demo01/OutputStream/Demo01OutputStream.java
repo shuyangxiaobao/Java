@@ -1,5 +1,6 @@
 package day9.demo01.OutputStream;
 
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
@@ -44,7 +45,18 @@ public class Demo01OutputStream {
         //2.调用FileOutputStream对象中的方法write,把数据写入到文件中
         //public abstract void write(int b) ：将指定的字节输出流。
         fos.write(90);
+        fos.write(99);
+
         //3.释放资源(流使用会占用一定的内存,使用完毕要把内存清空,提供程序的效率)
-        fos.close();
+        fos.close();//ertwetew
+        
+       fun1();
     }
+
+    private static void fun1() throws IOException {
+    	FileOutputStream fos = new FileOutputStream("/Users/xiaobao/Desktop/23.txt");
+    	fos.write(88);
+    	fos.write(89);	
+    	fos.close();
+	}  
 }

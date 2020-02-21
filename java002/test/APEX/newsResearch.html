@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title></title>
+    <link rel="stylesheet" href="./css/newsResearch.css">
+    <script src="./js/common.js"></script>
+
+</head>
+
+
+<body>
+    <script>
+        const width = window.screen.width; //
+        const height = window.screen.height;
+
+        function getAutoWidth(wid) {
+            return wid * width / 375;
+        }
+
+        function myClick(item) {
+            alert(item);
+        }
+
+        function jumpToPage(param) {
+            window.location.href = param;     //在同当前窗口中打开窗口
+        }
+    </script>
+    <div id="div1">
+        <img src="./img/menu@3x.png" alt="加载失败" id="imgOne" onclick="myClick('传值')">
+        <h1 id="hometitle">News</h1>
+        <img src="./img/Message@3x.png" alt="加载失败" id="imgtwo" onclick="myClick('传值')">
+    </div>
+    <div style="height: 64px;"></div>
+
+    <div id="div2">
+        <div class="div3" onclick="jumpToPage('./news.html')">News</div>
+        <div class="div3 " onclick="jumpToPage('./newsAnnouncement.html')">Announcement</div>
+        <div class="div3 "onclick="jumpToPage('./newsVides.html')">Videos</div>
+        <div class="div3 div4">Research</div>
+    </div>
+
+    <div style="height: 50px;"></div>
+
+
+
+    <ul>
+        <li>
+            <img src="./img/PDF@3x.png" alt="" style="width: 18px; height: 18px; margin-top: 21px; margin-left:20px;">
+            <div for="" class="newstitle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; USD/CNH Futures Daily Observation 20190520 (CHINESE)t</div>
+            <span class="time">2019-05-23 09:36</span>
+            <span class="liulan">4859浏览</span>
+            <div style="height: 21px; width: 100%;"></div>
+        </li>
+        <li>
+            <img src="./img/PDF@3x.png" alt="" style="width: 18px; height: 18px; margin-top: 21px; margin-left:20px;">
+            <div for="" class="newstitle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; USD/CNH Futures Daily Observation 20190520 (CHINESE)</div>
+            <span class="time">2019-05-23 09:36</span>
+            <span class="liulan">4859浏览</span>
+            <div style="height: 21px; width: 100%;"></div>
+        </li>
+        <li>
+            <img src="./img/PDF@3x.png" alt="" style="width: 18px; height: 18px; margin-top: 21px; margin-left:20px;">
+            <div for="" class="newstitle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Market Morning Report 20190520 (CHINESE)</div>
+            <span class="time">2019-05-23 09:36</span>
+            <span class="liulan">4859浏览</span>
+            <div style="height: 21px; width: 100%;"></div>
+        </li>
+        <li>
+            <img src="./img/PDF@3x.png" alt="" style="width: 18px; height: 18px; margin-top: 21px; margin-left:20px;">
+            <div for="" class="newstitle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Market Morning Report 20190520 (CHINESE)</div>
+            <span class="time">2019-05-23 09:36</span>
+            <span class="liulan">4859浏览</span>
+            <div style="height: 21px; width: 100%;"></div>
+        </li>
+        <li>
+            <img src="./img/PDF@3x.png" alt="" style="width: 18px; height: 18px; margin-top: 21px; margin-left:20px;">
+            <div for="" class="newstitle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Market Morning Report 20190520 (CHINESE)</div>
+            <span class="time">2019-05-23 09:36</span>
+            <span class="liulan">4859浏览</span>
+            <div style="height: 21px; width: 100%;"></div>
+        </li>
+        <li>
+            <img src="./img/PDF@3x.png" alt="" style="width: 18px; height: 18px; margin-top: 21px; margin-left:20px;">
+            <div for="" class="newstitle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Announcement on Listing of
+                Revised APEX RBD Palm Olein Futures Contract</div>
+            <span class="time">2019-05-23 09:36</span>
+            <span class="liulan">4859浏览</span>
+            <div style="height: 21px; width: 100%;"></div>
+        </li>
+        <li>
+            <img src="./img/PDF@3x.png" alt="" style="width: 18px; height: 18px; margin-top: 21px; margin-left:20px;">
+            <div for="" class="newstitle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Announcement on Listing of
+                Revised APEX RBD Palm Olein Futures Contract</div>
+            <span class="time">2019-05-23 09:36</span>
+            <span class="liulan">4859浏览</span>
+            <div style="height: 21px; width: 100%;"></div>
+        </li>
+        <li style="height: 59px; width: 100%;"></li>
+    </ul>
+
+
+
+    <ul id="bottomdiv">
+
+        <li class="bottomli" onclick="">
+            <a href="./home.html" class="bottomli">
+                <img src="./img/tabbar/home.png" alt="" class="bottomdivimg">
+                <label for="" class="bottomLab">Home</label>
+            </a>
+
+        </li>
+        <li class="bottomli">
+            <a href="./data.html" class="bottomli">
+                <img src="./img/tabbar/data.png" alt="" class="bottomdivimg">
+                <label for="" class="bottomLab">Data</label>
+            </a>
+
+        </li>
+        <li class="bottomli">
+            <img src="./img/tabbar/newsClick.png" alt="" class="bottomdivimg">
+            <label for="" class="bottomLab" style="color: #387CFE;">News</label>
+        </li>
+        <li class="bottomli" onclick="jumpToPage('./me.html')">
+            <img src="./img/tabbar/products.png" alt="" class="bottomdivimg">
+            <label for="" class="bottomLab">me</label>
+        </li>
+    </ul>
+
+</body>
+
+</html>
