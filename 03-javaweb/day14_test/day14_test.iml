@@ -16,7 +16,7 @@
     </content>
     <orderEntry type="jdk" jdkName="10" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Tomcat 8.0.0" level="application_server_libraries" />
+    <orderEntry type="library" name="Tomcat day14" level="application_server_libraries" />
     <orderEntry type="module-library">
       <library name="commons-beanutils-1.8.0">
         <CLASSES>

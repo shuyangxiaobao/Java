@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Mybatis_lianxi.iml" filepath="$PROJECT_DIR$/Mybatis_lianxi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day02_eesy_01mybatisCRUD/day02_eesy_01mybatisCRUD.iml" filepath="$PROJECT_DIR$/day02_eesy_01mybatisCRUD/day02_eesy_01mybatisCRUD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day03_eesy_01datasourceAndTx/day03_eesy_01datasourceAndTx.iml" filepath="$PROJECT_DIR$/day03_eesy_01datasourceAndTx/day03_eesy_01datasourceAndTx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day03_eesy_03one2many/day03_eesy_03one2many.iml" filepath="$PROJECT_DIR$/day03_eesy_03one2many/day03_eesy_03one2many.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day04_eesy_01lazy/day04_eesy_01lazy.iml" filepath="$PROJECT_DIR$/day04_eesy_01lazy/day04_eesy_01lazy.iml" />
+    </modules>
+  </component>
+</project>

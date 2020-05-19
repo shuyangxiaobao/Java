@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MySpring_lianxi.iml" filepath="$PROJECT_DIR$/MySpring_lianxi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day02_02test/day02_02test.iml" filepath="$PROJECT_DIR$/day02_02test/day02_02test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day02_eesy_01anno_ioc/day02_eesy_01anno_ioc.iml" filepath="$PROJECT_DIR$/day02_eesy_01anno_ioc/day02_eesy_01anno_ioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day02_eesy_02account_xmlioc/day02_eesy_02account_xmlioc.iml" filepath="$PROJECT_DIR$/day02_eesy_02account_xmlioc/day02_eesy_02account_xmlioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day03_eesy_06account_xmlioc/day03_eesy_06account_xmlioc.iml" filepath="$PROJECT_DIR$/day03_eesy_06account_xmlioc/day03_eesy_06account_xmlioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day04_eesy_01jdbctemplate/day04_eesy_01jdbctemplate.iml" filepath="$PROJECT_DIR$/day04_eesy_01jdbctemplate/day04_eesy_01jdbctemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day04_eesy_02account_aoptx_xml/day04_eesy_02account_aoptx_xml.iml" filepath="$PROJECT_DIR$/day04_eesy_02account_aoptx_xml/day04_eesy_02account_aoptx_xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day04_eesy_03account_aoptx_anno/day04_eesy_03account_aoptx_anno.iml" filepath="$PROJECT_DIR$/day04_eesy_03account_aoptx_anno/day04_eesy_03account_aoptx_anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day04_eesy_05tx_xml/day04_eesy_05tx_xml.iml" filepath="$PROJECT_DIR$/day04_eesy_05tx_xml/day04_eesy_05tx_xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day04_eesy_06tx_anno/day04_eesy_06tx_anno.iml" filepath="$PROJECT_DIR$/day04_eesy_06tx_anno/day04_eesy_06tx_anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day04_eesy_07anno_tx_withoutxml/day04_eesy_07anno_tx_withoutxml.iml" filepath="$PROJECT_DIR$/day04_eesy_07anno_tx_withoutxml/day04_eesy_07anno_tx_withoutxml.iml" />
+    </modules>
+  </component>
+</project>

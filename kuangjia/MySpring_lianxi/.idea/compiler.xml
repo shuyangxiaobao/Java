@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="day02_02test" />
+        <module name="day02_eesy_01anno_ioc" />
+        <module name="day02_eesy_02account_xmlioc" />
+        <module name="day03_eesy_06account_xmlioc" />
+        <module name="day04_eesy_01jdbctemplate" />
+        <module name="day04_eesy_02account_aoptx_xml" />
+        <module name="day04_eesy_03account_aoptx_anno" />
+        <module name="day04_eesy_05tx_xml" />
+        <module name="day04_eesy_06tx_anno" />
+        <module name="day04_eesy_07anno_tx_withoutxml" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="day02_02test" target="6" />
+      <module name="day02_eesy_01anno_ioc" target="1.5" />
+      <module name="day02_eesy_02account_xmlioc" target="6" />
+      <module name="day03_eesy_06account_xmlioc" target="6" />
+      <module name="day04_eesy_01jdbctemplate" target="1.5" />
+      <module name="day04_eesy_02account_aoptx_xml" target="1.5" />
+      <module name="day04_eesy_03account_aoptx_anno" target="6" />
+      <module name="day04_eesy_05tx_xml" target="1.5" />
+      <module name="day04_eesy_06tx_anno" target="1.5" />
+      <module name="day04_eesy_07anno_tx_withoutxml" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

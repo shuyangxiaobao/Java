@@ -4,6 +4,20 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Mybatis.iml" filepath="$PROJECT_DIR$/Mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/day01_eesy_01mybatis/day01_eesy_01mybatis.iml" filepath="$PROJECT_DIR$/day01_eesy_01mybatis/day01_eesy_01mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day01_eesy_02mybatis_annotation/day01_eesy_02mybatis_annotation.iml" filepath="$PROJECT_DIR$/day01_eesy_02mybatis_annotation/day01_eesy_02mybatis_annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day01_eesy_03mybatis_dao/day01_eesy_03mybatis_dao.iml" filepath="$PROJECT_DIR$/day01_eesy_03mybatis_dao/day01_eesy_03mybatis_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day01_eesy_04mybatis_design/day01_eesy_04mybatis_design.iml" filepath="$PROJECT_DIR$/day01_eesy_04mybatis_design/day01_eesy_04mybatis_design.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day02_eesy_01mybatisCRUD/day02_eesy_01mybatisCRUD.iml" filepath="$PROJECT_DIR$/day02_eesy_01mybatisCRUD/day02_eesy_01mybatisCRUD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day02_eesy_02mybatsiDAO/day02_eesy_02mybatsiDAO.iml" filepath="$PROJECT_DIR$/day02_eesy_02mybatsiDAO/day02_eesy_02mybatsiDAO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day03_eesy_01datasourceAndTx/day03_eesy_01datasourceAndTx.iml" filepath="$PROJECT_DIR$/day03_eesy_01datasourceAndTx/day03_eesy_01datasourceAndTx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day03_eesy_02dynamicSQL/day03_eesy_02dynamicSQL.iml" filepath="$PROJECT_DIR$/day03_eesy_02dynamicSQL/day03_eesy_02dynamicSQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day03_eesy_03one2many/day03_eesy_03one2many.iml" filepath="$PROJECT_DIR$/day03_eesy_03one2many/day03_eesy_03one2many.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day03_eesy_04many2many/day03_eesy_04many2many.iml" filepath="$PROJECT_DIR$/day03_eesy_04many2many/day03_eesy_04many2many.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day03_eesy_05jndi/day03_eesy_05jndi.iml" filepath="$PROJECT_DIR$/day03_eesy_05jndi/day03_eesy_05jndi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day04_eesy_01lazy/day04_eesy_01lazy.iml" filepath="$PROJECT_DIR$/day04_eesy_01lazy/day04_eesy_01lazy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day04_eesy_02cache/day04_eesy_02cache.iml" filepath="$PROJECT_DIR$/day04_eesy_02cache/day04_eesy_02cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day04_eesy_03annotation_mybatis/day04_eesy_03annotation_mybatis.iml" filepath="$PROJECT_DIR$/day04_eesy_03annotation_mybatis/day04_eesy_03annotation_mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day04_eesy_04annoOne2Many/day04_eesy_04annoOne2Many.iml" filepath="$PROJECT_DIR$/day04_eesy_04annoOne2Many/day04_eesy_04annoOne2Many.iml" />
     </modules>
   </component>
 </project>

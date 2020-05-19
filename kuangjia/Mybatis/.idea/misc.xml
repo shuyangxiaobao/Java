@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/day03_eesy_05jndi" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/day01_eesy_01mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/day01_eesy_02mybatis_annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/day01_eesy_03mybatis_dao/pom.xml" />
+        <option value="$PROJECT_DIR$/day01_eesy_04mybatis_design/pom.xml" />
+        <option value="$PROJECT_DIR$/day02_eesy_01mybatisCRUD/pom.xml" />
+        <option value="$PROJECT_DIR$/day02_eesy_02mybatsiDAO/pom.xml" />
+        <option value="$PROJECT_DIR$/day03_eesy_01datasourceAndTx/pom.xml" />
+        <option value="$PROJECT_DIR$/day03_eesy_02dynamicSQL/pom.xml" />
+        <option value="$PROJECT_DIR$/day03_eesy_03one2many/pom.xml" />
+        <option value="$PROJECT_DIR$/day03_eesy_04many2many/pom.xml" />
+        <option value="$PROJECT_DIR$/day03_eesy_05jndi/pom.xml" />
+        <option value="$PROJECT_DIR$/day04_eesy_01lazy/pom.xml" />
+        <option value="$PROJECT_DIR$/day04_eesy_02cache/pom.xml" />
+        <option value="$PROJECT_DIR$/day04_eesy_03annotation_mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/day04_eesy_04annoOne2Many/pom.xml" />
       </list>
     </option>
   </component>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/day02_eesy_01anno_ioc/pom.xml" />
+        <option value="$PROJECT_DIR$/day02_eesy_02account_xmlioc/pom.xml" />
+        <option value="$PROJECT_DIR$/day02_02test/pom.xml" />
+        <option value="$PROJECT_DIR$/day03_eesy_06account_xmlioc/pom.xml" />
+        <option value="$PROJECT_DIR$/day04_eesy_01jdbctemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/day04_eesy_02account_aoptx_xml/pom.xml" />
+        <option value="$PROJECT_DIR$/day04_eesy_03account_aoptx_anno/pom.xml" />
+        <option value="$PROJECT_DIR$/day04_eesy_05tx_xml/pom.xml" />
+        <option value="$PROJECT_DIR$/day04_eesy_06tx_anno/pom.xml" />
+        <option value="$PROJECT_DIR$/day04_eesy_07anno_tx_withoutxml/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_10" default="true" project-jdk-name="10" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

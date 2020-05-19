@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/day01_eesy_01jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/day01_eesy_02factory/pom.xml" />
+        <option value="$PROJECT_DIR$/day01_eesy_03spring/pom.xml" />
+        <option value="$PROJECT_DIR$/day01_eesy_04bean/pom.xml" />
+        <option value="$PROJECT_DIR$/day01_eesy_05DI/pom.xml" />
+        <option value="$PROJECT_DIR$/day02_eesy_01anno_ioc/pom.xml" />
+        <option value="$PROJECT_DIR$/day02_eesy_02account_xmlioc/pom.xml" />
+        <option value="$PROJECT_DIR$/day02_eesy_03account_annoioc/pom.xml" />
+        <option value="$PROJECT_DIR$/day02_eesy_04account_annoioc_withoutxml/pom.xml" />
+        <option value="$PROJECT_DIR$/day03_eesy_01account/pom.xml" />
+        <option value="$PROJECT_DIR$/day03_eesy_02proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/day03_eesy_03springAOP/pom.xml" />
+        <option value="$PROJECT_DIR$/day03_eesy_04adviceType/pom.xml" />
+        <option value="$PROJECT_DIR$/day03_eesy_05annotationAOP/pom.xml" />
+        <option value="$PROJECT_DIR$/day04_eesy_01jdbctemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/day04_eesy_02account_aoptx_xml/pom.xml" />
+        <option value="$PROJECT_DIR$/day04_eesy_03account_aoptx_anno/pom.xml" />
+        <option value="$PROJECT_DIR$/day04_eesy_04tx/pom.xml" />
+        <option value="$PROJECT_DIR$/day04_eesy_05tx_xml/pom.xml" />
+        <option value="$PROJECT_DIR$/day04_eesy_06tx_anno/pom.xml" />
+        <option value="$PROJECT_DIR$/day04_eesy_07anno_tx_withoutxml/pom.xml" />
+        <option value="$PROJECT_DIR$/day04_eesy_08account_tx/pom.xml" />
+        <option value="$PROJECT_DIR$/day04_eesy_09jdk8/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_10" default="true" project-jdk-name="10" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
