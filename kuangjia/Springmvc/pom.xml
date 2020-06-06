@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.xiaobao</groupId>
+    <artifactId>Springmvc</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>springmvc_day01_01_start</module>
+        <module>springmvc_day02_01_response</module>
+        <module>springmvc_day02_02_fileupload</module>
+        <module>springmvc_day02_03_exception</module>
+        <module>springmvc_day02_04_interceptor</module>
+        <module>springmvc_day03_ssm</module>
+        <module>springmvc_day02_fileupload_picture</module>
+    </modules>
+
+
+</project>

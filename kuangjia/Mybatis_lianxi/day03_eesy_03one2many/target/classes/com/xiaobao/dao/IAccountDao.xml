@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.xiaobao.dao.IAccountDao">
+    <!-- 定义封装account和user的resultMap -->
+    <resultMap id="accountUserMap" type="account">
+        <id property="id" column="aid"></id>
+        <result property="uid" column="uid"></result>
+        <result property="money" column="money"></result>
+        <!-- 一对一的关系映射：配置封装user的内容-->
+        <association property="user" column="uid" javaType="user">
+            <id property="id" column="id"></id>
+            <result column="username" property="username"></result>
+            <result column="address" property="address"></result>
+            <result column="sex" property="sex"></result>
+            <result column="birthday" property="birthday"></result>
+        </association>
+    </resultMap>
+
+    <resultMap id="map2" type="accountuser">
+        <id property="id" column="aid"></id>
+        <result property="uid" column="uid"></result>
+        <result property="money" column="money"></result>
+
+        <result property="myId" column="id"></result>
+        <result property="myUsername" column="username"></result>
+        <result property="myBirthday" column="birthday"></result>
+        <result property="mySex" column="sex"></result>
+        <result property="myAddress" column="address"></result>
+    </resultMap>
+
+    <!--private Integer id;-->
+    <!--private Integer uid;-->
+    <!--private Double money;-->
+
+    <!--private String myId;-->
+    <!--private String myUsername;-->
+    <!--private Date myBirthday;-->
+    <!--private String mySex;-->
+    <!--private String myAddress;-->
+
+
+    <select id="findAll" resultMap="accountUserMap">
+      select a.id as aid,a.uid,a.money,u.* from account a ,user u where a.uid = u.id;
+    </select>
+
+
+    <select id="findAllUser" resultMap="map2">
+      select a.id as aid,a.uid,a.money,u.* from account a ,user u where a.uid = u.id;
+    </select>
+
+
+
+</mapper>

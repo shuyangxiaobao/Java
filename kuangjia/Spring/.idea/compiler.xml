@@ -38,17 +38,17 @@
       <module name="day01_eesy_04bean" target="1.5" />
       <module name="day01_eesy_05DI" target="1.5" />
       <module name="day02_eesy_01anno_ioc" target="1.5" />
-      <module name="day02_eesy_02account_xmlioc" target="1.5" />
-      <module name="day02_eesy_03account_annoioc" target="1.5" />
+      <module name="day02_eesy_02account_xmlioc" target="6" />
+      <module name="day02_eesy_03account_annoioc" target="6" />
       <module name="day02_eesy_04account_annoioc_withoutxml" target="6" />
-      <module name="day03_eesy_01account" target="1.5" />
-      <module name="day03_eesy_02proxy" target="1.5" />
-      <module name="day03_eesy_03springAOP" target="1.5" />
-      <module name="day03_eesy_04adviceType" target="1.5" />
-      <module name="day03_eesy_05annotationAOP" target="1.5" />
-      <module name="day04_eesy_01jdbctemplate" target="1.5" />
-      <module name="day04_eesy_02account_aoptx_xml" target="1.5" />
-      <module name="day04_eesy_03account_aoptx_anno" target="1.5" />
+      <module name="day03_eesy_01account" target="6" />
+      <module name="day03_eesy_02proxy" target="6" />
+      <module name="day03_eesy_03springAOP" target="6" />
+      <module name="day03_eesy_04adviceType" target="6" />
+      <module name="day03_eesy_05annotationAOP" target="6" />
+      <module name="day04_eesy_01jdbctemplate" target="6" />
+      <module name="day04_eesy_02account_aoptx_xml" target="6" />
+      <module name="day04_eesy_03account_aoptx_anno" target="6" />
       <module name="day04_eesy_04tx" target="6" />
       <module name="day04_eesy_05tx_xml" target="6" />
       <module name="day04_eesy_06tx_anno" target="6" />
