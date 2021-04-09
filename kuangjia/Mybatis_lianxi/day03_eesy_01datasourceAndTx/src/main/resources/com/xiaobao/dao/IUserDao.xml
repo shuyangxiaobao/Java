@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.xiaobao.dao.IUserDao">
+
+    <resultMap id="userMap" type="user">
+        <id property="userId" column="id"></id>
+        <result property="userName" column="username"></result>
+        <result property="userAddress" column="address"></result>
+        <result property="userSex" column="sex"></result>
+        <result property="userBirthday" column="birthday"></result>
+
+    </resultMap>
+
+
+    <!--private Integer userId;-->
+    <!--private String userName;-->
+    <!--private String userAddress;-->
+    <!--private  String userSex;-->
+    <!--private Date userBirthday;-->
+
+
+    <!--配置-->
+    <select id="findAll" resultMap="userMap">
+        select * from user
+    </select>
+
+    <select id="findUserByVo" parameterType="queryvo" resultMap="userMap" >
+            select * from user where username like #{user.userName}
+    </select>
+
+
+    <select id="findUserByCondition" parameterType="user" resultMap="userMap">
+        select *from user
+        <where>
+        <if test="userName != null">
+            and username = #{userName}
+        </if>
+        <if test="userSex != null">
+            and sex = #{userSex}
+        </if>
+        </where>
+
+    </select>
+
+    <select id="findUserInIds" parameterType="queryvo" resultMap="userMap">
+        select *from user
+        <where>
+            <if test="ids != null and ids.size() > 0">
+                <foreach collection="ids" open="and id in (" close=")" item="uid" separator=",">
+                    #{uid}
+                </foreach>
+            </if>
+
+        </where>
+    </select>
+
+
+</mapper>

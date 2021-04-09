@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="_00_android_http:war">
+    <output-path>$PROJECT_DIR$/_00_android_http/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>_00_android_http</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="00_android_http.war">
+      <element id="artifact" artifact-name="_00_android_http:war exploded" />
+    </root>
+  </artifact>
+</component>

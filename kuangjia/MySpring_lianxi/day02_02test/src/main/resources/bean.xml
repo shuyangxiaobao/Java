@@ -1,0 +1,33 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+       <!--xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+       <!--xmlns:context="http://www.springframework.org/schema/context"-->
+       <!--xsi:schemaLocation="http://www.springframework.org/schema/beans-->
+        <!--http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">-->
+
+    <!--&lt;!&ndash;<bean id="gqbAccountService" class="com.xiaobao.service.Impl.GqbAccountServiceImpl">&ndash;&gt;-->
+        <!--&lt;!&ndash;<property name="accountDao" ref="gqbAccountDao"></property>&ndash;&gt;-->
+    <!--&lt;!&ndash;</bean>&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<bean id="gqbAccountDao" class="com.xiaobao.dao.Impl.IgqbAccountDaoImpl">&ndash;&gt;-->
+        <!--&lt;!&ndash;<property name="runner" ref="runner"></property>&ndash;&gt;-->
+    <!--&lt;!&ndash;</bean>&ndash;&gt;-->
+
+
+    <!--<context:component-scan base-package="com.xiaobao"></context:component-scan>-->
+
+    <!--<bean id="runner" class="org.apache.commons.dbutils.QueryRunner">-->
+        <!--&lt;!&ndash;构造函数注入&ndash;&gt;-->
+        <!--<constructor-arg name="ds" ref="datasource"></constructor-arg>-->
+    <!--</bean>-->
+
+    <!--<bean id="datasource" class="com.mchange.v2.c3p0.ComboPooledDataSource">-->
+        <!--&lt;!&ndash;连接数据库的必备信息&ndash;&gt;-->
+        <!--<property name="driverClass" value="com.mysql.cj.jdbc.Driver"></property>-->
+        <!--<property name="jdbcUrl" value="jdbc:mysql://localhost:3306/spring_test"></property>-->
+        <!--<property name="user" value="root"></property>-->
+        <!--<property name="password" value="123456abc"></property>-->
+    <!--</bean>-->
+
+
+<!--</beans>-->

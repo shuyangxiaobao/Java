@@ -61,6 +61,8 @@
             <version>2.0</version>
             <scope>provided</scope>
         </dependency>
+
+        <!--文件上传-->
         <dependency>
             <groupId>commons-fileupload</groupId>
             <artifactId>commons-fileupload</artifactId>

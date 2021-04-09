@@ -22,6 +22,7 @@
     <!-- 查询所有 -->
     <select id="findAll" resultMap="accountUserMap">
         select u.*,a.id as aid,a.uid,a.money from account a , user u where u.id = a.uid;
+        
     </select>
 
     <!--查询所有账户同时包含用户名和地址信息 (通过继承)-->
@@ -30,3 +31,15 @@
     </select>
 
 </mapper>
+
+
+
+
+
+
+
+
+
+
+
+

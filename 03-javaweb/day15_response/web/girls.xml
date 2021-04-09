@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<girls>
+    <girl>
+        <name>校花</name>
+        <age>28</age>
+        <school>清华</school>
+    </girl>
+    <girl>
+        <name>小明</name>
+        <age>29</age>
+        <school>北大</school>
+    </girl>
+
+</girls>

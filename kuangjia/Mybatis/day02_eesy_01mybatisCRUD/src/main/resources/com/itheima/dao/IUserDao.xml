@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itheima.dao.IUserDao">
+
+
+
+    <!--由于配置了别名，故可以不用写全类名，并且不区分大小写-->
+    <!-- 配置 查询结果的列名和实体类的属性名的对应关系 -->
+    <!--type="USeR"   不区分大小下-->
+    <!--type="com.itheima.domain.User"-->
+    <resultMap id="userMapxlp" type="useR">
+        <!-- 主键字段的对应 -->
+        <id property="userId" column="id"></id>
+        <!--非主键字段的对应-->
+        <result property="userName" column="username"></result>
+        <result property="userAddress" column="address"></result>
+        <result property="userSex" column="sex"></result>
+        <result property="userBirthday" column="birthday"></result>
+    </resultMap>
+
+
+    <!-- 查询所有 -->
+    <select id="findAll" resultMap="userMapxlp">
+        <!--select id as userId,username as userName,address as userAddress,sex as userSex,birthday as userBirthday from user;-->
+        select * from user;
+    </select>
+
+    <!--<select id="findAll" resultType="com.itheima.domain.User">-->
+        <!--select id as userId,username as userName,address as userAddress,sex as userSex,birthday as userBirthday from user;-->
+    <!--</select>-->
+
+
+    <!-- 保存用户 -->
+    <insert id="saveUser" parameterType="user">
+        <!-- 配置插入操作后，获取插入数据的id -->
+        <selectKey keyProperty="userId" keyColumn="id" resultType="int" order="AFTER">
+            select last_insert_id();
+        </selectKey>
+        insert into user(username,address,sex,birthday)values(#{userName},#{userAddress},#{userSex},#{userBirthday});
+    </insert>
+
+    <!--这里也可以用来保存用户-->
+    <!--<insert id="saveUser">-->
+          <!--insert into user(username,address,sex,birthday)values(#{userName},#{userAddress},#{userSex},#{userBirthday});-->
+    <!--</insert>-->
+
+
+    <!-- 更新用户 -->
+    <!--parameterType="user"-->
+    <!--parameterType="USER"-->
+    <!--parameterType="User"-->
+    <!--parameterType="User"-->
+    <!--parameterType="com.itheima.domain.User"-->
+    <update id="updateUser" parameterType="user">
+        update user set username=#{userName},address=#{userAddress},sex=#{userSex},birthday=#{userBirthday} where id=#{userId}
+    </update>
+
+    <!-- 删除用户-->
+    <delete id="deleteUser" parameterType="java.lang.Integer">
+        delete from user where id = #{uid}         <!--  占位符，什么都行  -->
+    </delete>
+    
+    <!-- 根据id查询用户 -->
+    <select id="findById" parameterType="INT" resultMap="userMapxlp">
+        select * from user where id = #{uid}
+    </select>
+
+    <!-- 根据名称模糊查询 -->
+    <select id="findByName" parameterType="string" resultMap="userMapxlp">
+          select * from user where username like #{userName}
+        <!-- select * from user where username like '%${value}%'-->
+   </select>
+
+    <!-- 获取用户的总记录条数 -->
+    <select id="findTotal" resultType="int">
+--         select count(sex) from user
+--         select count(sex) from user where sex = '男'
+        select count(username) from user where sex is  null
+    </select>
+
+    <!-- 根据queryVo的条件查询用户 -->
+
+    <!--1-->
+    <!--<select id="findUserByVo" parameterType="com.itheima.domain.QueryVo" resultMap="userMapxlp">-->
+        <!--select * from user where username like #{user.userName}-->
+    <!--</select>-->
+
+    <!--2-->
+    <select id="findUserByVo" parameterType="com.itheima.domain.QueryVo" resultType="com.itheima.domain.User">
+        select * from user where username like #{user.userName}
+    </select>
+
+</mapper>

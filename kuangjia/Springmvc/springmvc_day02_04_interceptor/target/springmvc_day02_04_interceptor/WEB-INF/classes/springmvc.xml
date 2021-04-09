@@ -35,7 +35,7 @@
             <mvc:exclude-mapping path=""/>
             -->
             <!--配置拦截器对象-->
-            <bean class="cn.itcast.controller.cn.itcast.interceptor.MyInterceptor1" />
+            <bean class="cn.itcast.controller.MyInterceptor1" />
         </mvc:interceptor>
 
         <!--配置第二个拦截器-->
@@ -46,7 +46,7 @@
             <mvc:exclude-mapping path=""/>
             -->
             <!--配置拦截器对象-->
-            <bean class="cn.itcast.controller.cn.itcast.interceptor.MyInterceptor2" />
+            <bean class="cn.itcast.controller.MyInterceptor2" />
         </mvc:interceptor>
     </mvc:interceptors>
 

@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/_00_android_http/_00_android_http.iml" filepath="$PROJECT_DIR$/_00_android_http/_00_android_http.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comxiaobao/comxiaobao.iml" filepath="$PROJECT_DIR$/comxiaobao/comxiaobao.iml" />
       <module fileurl="file://$PROJECT_DIR$/day05_JDBC/day05_JDBC.iml" filepath="$PROJECT_DIR$/day05_JDBC/day05_JDBC.iml" />
       <module fileurl="file://$PROJECT_DIR$/day06_JDBC连接池&amp;JDBCTemplate/day06_JDBC连接池&amp;JDBCTemplate.iml" filepath="$PROJECT_DIR$/day06_JDBC连接池&amp;JDBCTemplate/day06_JDBC连接池&amp;JDBCTemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/day14_test/day14_test.iml" filepath="$PROJECT_DIR$/day14_test/day14_test.iml" />

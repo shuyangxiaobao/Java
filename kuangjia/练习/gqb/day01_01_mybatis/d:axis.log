@@ -1,0 +1,750 @@
+2020-08-14 09:44:35,229 0      [           yiqian.main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-08-14 09:44:35,382 153    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 09:44:35,383 154    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 09:44:35,383 154    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 09:44:35,384 155    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 09:44:35,494 265    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-08-14 09:44:36,109 880    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - Created connection 765826899.
+2020-08-14 09:44:36,110 881    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2da59753]
+2020-08-14 09:44:36,113 884    [           yiqian.main] DEBUG om.xiaobao.dao.IUserDao.finall  - ==>  Preparing: select * from user
+2020-08-14 09:44:36,228 999    [           yiqian.main] DEBUG om.xiaobao.dao.IUserDao.finall  - ==> Parameters:
+2020-08-14 09:44:36,332 1103   [           yiqian.main] DEBUG om.xiaobao.dao.IUserDao.finall  - <==      Total: 6
+2020-08-14 10:25:03,029 0      [           yiqian.main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-08-14 10:25:03,149 120    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 10:25:03,150 121    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 10:25:03,150 121    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 10:25:03,150 121    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 10:25:03,232 203    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-08-14 10:25:03,744 715    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - Created connection 765826899.
+2020-08-14 10:25:03,744 715    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2da59753]
+2020-08-14 10:25:03,747 718    [           yiqian.main] DEBUG om.xiaobao.dao.IUserDao.finall  - ==>  Preparing: select * from user
+2020-08-14 10:25:03,839 810    [           yiqian.main] DEBUG om.xiaobao.dao.IUserDao.finall  - ==> Parameters:
+2020-08-14 10:25:03,910 881    [           yiqian.main] DEBUG om.xiaobao.dao.IUserDao.finall  - <==      Total: 6
+2020-08-14 10:50:32,133 0      [           yiqian.main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-08-14 10:50:32,249 116    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 10:50:32,249 116    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 10:50:32,249 116    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 10:50:32,250 117    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 10:51:28,888 0      [           yiqian.main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-08-14 10:51:28,993 105    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 10:51:28,993 105    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 10:51:28,993 105    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 10:51:28,994 106    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 10:51:29,088 200    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-08-14 10:51:29,634 746    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - Created connection 1666544295.
+2020-08-14 10:51:29,634 746    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@635572a7]
+2020-08-14 10:51:29,636 748    [           yiqian.main] DEBUG .dao.IUserDao.finallAnnotation  - ==>  Preparing: select * from user
+2020-08-14 10:51:29,724 836    [           yiqian.main] DEBUG .dao.IUserDao.finallAnnotation  - ==> Parameters:
+2020-08-14 10:51:29,802 914    [           yiqian.main] DEBUG .dao.IUserDao.finallAnnotation  - <==      Total: 6
+2020-08-14 10:53:21,324 0      [           yiqian.main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-08-14 10:53:21,423 99     [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 10:53:21,424 100    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 10:53:21,424 100    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 10:53:21,424 100    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 10:53:21,508 184    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-08-14 10:53:22,030 706    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - Created connection 1666544295.
+2020-08-14 10:53:22,030 706    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@635572a7]
+2020-08-14 10:53:22,037 713    [           yiqian.main] DEBUG .dao.IUserDao.finallAnnotation  - ==>  Preparing: select * from user
+2020-08-14 10:53:22,120 796    [           yiqian.main] DEBUG .dao.IUserDao.finallAnnotation  - ==> Parameters:
+2020-08-14 10:53:22,184 860    [           yiqian.main] DEBUG .dao.IUserDao.finallAnnotation  - <==      Total: 6
+2020-08-14 11:11:24,834 0      [           yiqian.main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-08-14 11:11:24,961 127    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 11:11:24,962 128    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 11:11:24,962 128    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 11:11:24,962 128    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 11:11:25,051 217    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-08-14 11:11:25,711 877    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - Created connection 2044282225.
+2020-08-14 11:11:25,712 878    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@79d94571]
+2020-08-14 11:11:25,715 881    [           yiqian.main] DEBUG dao.IUserDao2.finallAnnotation  - ==>  Preparing: select * from user
+2020-08-14 11:11:25,805 971    [           yiqian.main] DEBUG dao.IUserDao2.finallAnnotation  - ==> Parameters:
+2020-08-14 11:11:25,896 1062   [           yiqian.main] DEBUG dao.IUserDao2.finallAnnotation  - <==      Total: 6
+2020-08-14 11:11:43,010 0      [           yiqian.main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-08-14 11:11:43,129 119    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 11:11:43,129 119    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 11:11:43,129 119    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 11:11:43,129 119    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 11:15:01,512 0      [           yiqian.main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-08-14 11:15:01,635 123    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 11:15:01,635 123    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 11:15:01,635 123    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 11:15:01,635 123    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 11:15:01,771 259    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-08-14 11:15:02,313 801    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - Created connection 2048537720.
+2020-08-14 11:15:02,313 801    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7a1a3478]
+2020-08-14 11:15:02,327 815    [           yiqian.main] DEBUG m.xiaobao.dao.IUserDao2.finall  - ==>  Preparing: select * from user
+2020-08-14 11:15:02,418 906    [           yiqian.main] DEBUG m.xiaobao.dao.IUserDao2.finall  - ==> Parameters:
+2020-08-14 11:15:02,512 1000   [           yiqian.main] DEBUG m.xiaobao.dao.IUserDao2.finall  - <==      Total: 6
+2020-08-14 11:15:38,755 0      [           yiqian.main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-08-14 11:15:38,865 110    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 11:15:38,865 110    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 11:15:38,865 110    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 11:15:38,865 110    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 11:15:58,329 0      [           yiqian.main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-08-14 11:15:58,449 120    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 11:15:58,449 120    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 11:15:58,449 120    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 11:15:58,449 120    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 11:15:58,555 226    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-08-14 11:15:59,063 734    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - Created connection 2044282225.
+2020-08-14 11:15:59,065 736    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@79d94571]
+2020-08-14 11:15:59,080 751    [           yiqian.main] DEBUG dao.IUserDao2.finallAnnotation  - ==>  Preparing: select * from user
+2020-08-14 11:15:59,162 833    [           yiqian.main] DEBUG dao.IUserDao2.finallAnnotation  - ==> Parameters:
+2020-08-14 11:15:59,223 894    [           yiqian.main] DEBUG dao.IUserDao2.finallAnnotation  - <==      Total: 6
+2020-08-14 15:17:15,086 0      [           yiqian.main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-08-14 15:17:15,185 99     [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 15:17:15,185 99     [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 15:17:15,185 99     [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 15:17:15,185 99     [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-14 15:17:15,191 105    [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-08-14 15:17:15,191 105    [           yiqian.main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-08-14 15:17:15,191 105    [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-08-14 15:17:15,192 106    [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-08-14 15:17:15,192 106    [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-08-14 15:17:15,193 107    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-14 15:17:15,193 107    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-14 15:17:15,256 170    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-08-14 15:17:15,256 170    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-08-14 15:17:15,257 171    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao2.class
+2020-08-14 15:17:15,257 171    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-14 15:17:15,257 171    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.class
+2020-08-14 15:17:15,258 172    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.class
+2020-08-14 15:17:15,258 172    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3  
+2020-08-14 15:17:15,259 173    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.xml
+2020-08-14 15:17:15,260 174    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.xml
+2020-08-14 15:17:15,260 174    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2020-08-14 15:17:15,261 175    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao2.class
+2020-08-14 15:17:15,261 175    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao2.class
+2020-08-14 15:17:15,262 176    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3    finall ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/xiaobao/domain/User;>; finallAnnotation RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user 
+2020-08-14 15:17:15,263 177    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.dao.IUserDao matches criteria [is assignable to Object]
+2020-08-14 15:17:15,264 178    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.dao.IUserDao2 matches criteria [is assignable to Object]
+2020-08-14 15:17:15,340 254    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-08-14 15:17:15,821 735    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - Created connection 70695990.
+2020-08-14 15:17:15,821 735    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@436bc36]
+2020-08-14 15:17:15,825 739    [           yiqian.main] DEBUG dao.IUserDao2.finallAnnotation  - ==>  Preparing: select * from user
+2020-08-14 15:17:15,894 808    [           yiqian.main] DEBUG dao.IUserDao2.finallAnnotation  - ==> Parameters:
+2020-08-14 15:17:15,954 868    [           yiqian.main] DEBUG dao.IUserDao2.finallAnnotation  - <==      Total: 6
+2020-08-18 11:58:03,654 0      [           yiqian.main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-08-18 11:58:03,789 135    [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-08-18 11:58:03,789 135    [           yiqian.main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-08-18 11:58:03,790 136    [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-08-18 11:58:03,791 137    [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-08-18 11:58:03,791 137    [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-08-18 11:58:03,792 138    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 11:58:03,792 138    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 11:58:03,847 193    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-08-18 11:58:03,848 194    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 11:58:03,848 194    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain/User.class
+2020-08-18 11:58:03,848 194    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain/User.class
+2020-08-18 11:58:03,849 195    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3 I
+2020-08-18 11:58:03,851 197    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.domain.User matches criteria [is assignable to Object]
+2020-08-18 11:58:03,930 276    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 11:58:03,930 276    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 11:58:03,930 276    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 11:58:03,930 276    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 11:58:03,939 285    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 11:58:03,947 293    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 11:58:03,951 297    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-08-18 11:58:03,952 298    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-08-18 11:58:03,952 298    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao2.class
+2020-08-18 11:58:03,953 299    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 11:58:03,953 299    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.class
+2020-08-18 11:58:03,953 299    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.class
+2020-08-18 11:58:03,954 300    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3   
+2020-08-18 11:58:03,955 301    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.xml
+2020-08-18 11:58:03,955 301    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.xml
+2020-08-18 11:58:03,955 301    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2020-08-18 11:58:03,958 304    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao2.class
+2020-08-18 11:58:03,958 304    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao2.class
+2020-08-18 11:58:03,959 305    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3    finall ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/xiaobao/domain/User;>; finallAnnotation RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user 
+2020-08-18 11:58:03,961 307    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.dao.IUserDao matches criteria [is assignable to Object]
+2020-08-18 11:58:03,962 308    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.dao.IUserDao2 matches criteria [is assignable to Object]
+2020-08-18 11:58:53,536 0      [           yiqian.main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-08-18 11:58:53,606 70     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-08-18 11:58:53,606 70     [           yiqian.main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-08-18 11:58:53,606 70     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-08-18 11:58:53,607 71     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-08-18 11:58:53,607 71     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-08-18 11:58:53,609 73     [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 11:58:53,613 77     [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 11:58:53,658 122    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-08-18 11:58:53,658 122    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 11:58:53,659 123    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain/User.class
+2020-08-18 11:58:53,659 123    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain/User.class
+2020-08-18 11:58:53,659 123    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3 I
+2020-08-18 11:58:53,661 125    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.domain.User matches criteria [is assignable to Object]
+2020-08-18 11:58:53,699 163    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 11:58:53,699 163    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 11:58:53,699 163    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 11:58:53,700 164    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 11:58:53,707 171    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 11:58:53,707 171    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 11:58:53,709 173    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-08-18 11:58:53,710 174    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-08-18 11:58:53,710 174    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao2.class
+2020-08-18 11:58:53,711 175    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 11:58:53,711 175    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.class
+2020-08-18 11:58:53,711 175    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.class
+2020-08-18 11:58:53,712 176    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3   
+2020-08-18 11:58:53,712 176    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.xml
+2020-08-18 11:58:53,712 176    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.xml
+2020-08-18 11:58:53,713 177    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2020-08-18 11:58:53,713 177    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao2.class
+2020-08-18 11:58:53,714 178    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao2.class
+2020-08-18 11:58:53,714 178    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3    finall ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/xiaobao/domain/User;>; finallAnnotation RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user 
+2020-08-18 11:58:53,715 179    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.dao.IUserDao matches criteria [is assignable to Object]
+2020-08-18 11:58:53,716 180    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.dao.IUserDao2 matches criteria [is assignable to Object]
+2020-08-18 11:58:53,792 256    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-08-18 11:58:54,357 821    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - Created connection 1481594086.
+2020-08-18 11:58:54,357 821    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@584f54e6]
+2020-08-18 11:58:54,360 824    [           yiqian.main] DEBUG .xiaobao.dao.IUserDao.saveUser  - ==>  Preparing: insert into user(username,address,sex,birthday)values(?,?,?,?);
+2020-08-18 11:58:54,424 888    [           yiqian.main] DEBUG .xiaobao.dao.IUserDao.saveUser  - ==> Parameters: woshixiaoming(String), null, null, null
+2020-08-18 11:58:54,482 946    [           yiqian.main] DEBUG .xiaobao.dao.IUserDao.saveUser  - <==    Updates: 1
+2020-08-18 11:58:54,483 947    [           yiqian.main] DEBUG ao.IUserDao.saveUser!selectKey  - ==>  Preparing: select last_insert_id();
+2020-08-18 11:58:54,483 947    [           yiqian.main] DEBUG ao.IUserDao.saveUser!selectKey  - ==> Parameters:
+2020-08-18 11:58:54,521 985    [           yiqian.main] DEBUG ao.IUserDao.saveUser!selectKey  - <==      Total: 1
+2020-08-18 12:00:43,681 0      [           yiqian.main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-08-18 12:00:43,773 92     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-08-18 12:00:43,773 92     [           yiqian.main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-08-18 12:00:43,774 93     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-08-18 12:00:43,775 94     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-08-18 12:00:43,776 95     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-08-18 12:00:43,776 95     [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:00:43,777 96     [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:00:43,847 166    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-08-18 12:00:43,848 167    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:00:43,848 167    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain/User.class
+2020-08-18 12:00:43,848 167    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain/User.class
+2020-08-18 12:00:43,849 168    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3 I
+2020-08-18 12:00:43,851 170    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.domain.User matches criteria [is assignable to Object]
+2020-08-18 12:00:43,899 218    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:00:43,899 218    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:00:43,900 219    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:00:43,900 219    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:00:43,916 235    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:00:43,916 235    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:00:43,921 240    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-08-18 12:00:43,922 241    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-08-18 12:00:43,923 242    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao2.class
+2020-08-18 12:00:43,923 242    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:00:43,923 242    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.class
+2020-08-18 12:00:43,924 243    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.class
+2020-08-18 12:00:43,924 243    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3   
+2020-08-18 12:00:43,925 244    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.xml
+2020-08-18 12:00:43,925 244    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.xml
+2020-08-18 12:00:43,926 245    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2020-08-18 12:00:43,927 246    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao2.class
+2020-08-18 12:00:43,927 246    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao2.class
+2020-08-18 12:00:43,928 247    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3    finall ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/xiaobao/domain/User;>; finallAnnotation RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user 
+2020-08-18 12:00:43,932 251    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.dao.IUserDao matches criteria [is assignable to Object]
+2020-08-18 12:00:43,933 252    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.dao.IUserDao2 matches criteria [is assignable to Object]
+2020-08-18 12:00:44,049 368    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-08-18 12:00:44,516 835    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - Created connection 333693383.
+2020-08-18 12:00:44,516 835    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13e3c1c7]
+2020-08-18 12:00:44,518 837    [           yiqian.main] DEBUG .xiaobao.dao.IUserDao.saveUser  - ==>  Preparing: insert into user(username,address,sex,birthday)values(?,?,?,?);
+2020-08-18 12:00:44,571 890    [           yiqian.main] DEBUG .xiaobao.dao.IUserDao.saveUser  - ==> Parameters: woshixiaoming(String), null, null, null
+2020-08-18 12:00:44,574 893    [           yiqian.main] DEBUG .xiaobao.dao.IUserDao.saveUser  - <==    Updates: 1
+2020-08-18 12:00:44,575 894    [           yiqian.main] DEBUG ao.IUserDao.saveUser!selectKey  - ==>  Preparing: select last_insert_id();
+2020-08-18 12:00:44,575 894    [           yiqian.main] DEBUG ao.IUserDao.saveUser!selectKey  - ==> Parameters:
+2020-08-18 12:00:44,620 939    [           yiqian.main] DEBUG ao.IUserDao.saveUser!selectKey  - <==      Total: 1
+2020-08-18 12:02:20,580 0      [           yiqian.main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-08-18 12:02:20,665 85     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-08-18 12:02:20,665 85     [           yiqian.main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-08-18 12:02:20,665 85     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-08-18 12:02:20,666 86     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-08-18 12:02:20,666 86     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-08-18 12:02:20,667 87     [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:02:20,667 87     [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:02:20,715 135    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-08-18 12:02:20,716 136    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:02:20,716 136    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain/User.class
+2020-08-18 12:02:20,716 136    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain/User.class
+2020-08-18 12:02:20,717 137    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3 J
+2020-08-18 12:02:20,719 139    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.domain.User matches criteria [is assignable to Object]
+2020-08-18 12:02:20,769 189    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:02:20,769 189    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:02:20,769 189    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:02:20,769 189    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:02:20,778 198    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:02:20,779 199    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:02:20,781 201    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-08-18 12:02:20,781 201    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-08-18 12:02:20,782 202    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao2.class
+2020-08-18 12:02:20,782 202    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:02:20,783 203    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.class
+2020-08-18 12:02:20,783 203    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.class
+2020-08-18 12:02:20,783 203    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3   
+2020-08-18 12:02:20,784 204    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.xml
+2020-08-18 12:02:20,784 204    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.xml
+2020-08-18 12:02:20,785 205    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2020-08-18 12:02:20,786 206    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao2.class
+2020-08-18 12:02:20,786 206    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao2.class
+2020-08-18 12:02:20,787 207    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3    finall ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/xiaobao/domain/User;>; finallAnnotation RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user 
+2020-08-18 12:02:20,789 209    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.dao.IUserDao matches criteria [is assignable to Object]
+2020-08-18 12:02:20,789 209    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.dao.IUserDao2 matches criteria [is assignable to Object]
+2020-08-18 12:02:20,877 297    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-08-18 12:02:21,396 816    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - Created connection 1481594086.
+2020-08-18 12:02:21,396 816    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@584f54e6]
+2020-08-18 12:02:21,399 819    [           yiqian.main] DEBUG .xiaobao.dao.IUserDao.saveUser  - ==>  Preparing: insert into user(username,address,sex,birthday)values(?,?,?,?);
+2020-08-18 12:02:21,470 890    [           yiqian.main] DEBUG .xiaobao.dao.IUserDao.saveUser  - ==> Parameters: woshixiaoming(String), 9(String), 9(String), 9(String)
+2020-08-18 12:02:53,799 0      [           yiqian.main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-08-18 12:02:53,882 83     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-08-18 12:02:53,882 83     [           yiqian.main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-08-18 12:02:53,882 83     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-08-18 12:02:53,883 84     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-08-18 12:02:53,883 84     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-08-18 12:02:53,884 85     [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:02:53,884 85     [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:02:53,936 137    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-08-18 12:02:53,936 137    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:02:53,937 138    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain/User.class
+2020-08-18 12:02:53,937 138    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain/User.class
+2020-08-18 12:02:53,938 139    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3 J
+2020-08-18 12:02:53,939 140    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.domain.User matches criteria [is assignable to Object]
+2020-08-18 12:02:53,985 186    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:02:53,985 186    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:02:53,985 186    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:02:53,985 186    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:02:53,993 194    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:02:53,994 195    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:02:53,996 197    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-08-18 12:02:53,997 198    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-08-18 12:02:53,997 198    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao2.class
+2020-08-18 12:02:53,998 199    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:02:53,998 199    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.class
+2020-08-18 12:02:53,998 199    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.class
+2020-08-18 12:02:53,999 200    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3   
+2020-08-18 12:02:54,000 201    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.xml
+2020-08-18 12:02:54,000 201    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.xml
+2020-08-18 12:02:54,000 201    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2020-08-18 12:02:54,001 202    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao2.class
+2020-08-18 12:02:54,002 203    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao2.class
+2020-08-18 12:02:54,002 203    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3    finall ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/xiaobao/domain/User;>; finallAnnotation RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user 
+2020-08-18 12:02:54,004 205    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.dao.IUserDao matches criteria [is assignable to Object]
+2020-08-18 12:02:54,004 205    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.dao.IUserDao2 matches criteria [is assignable to Object]
+2020-08-18 12:02:54,094 295    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-08-18 12:02:54,656 857    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - Created connection 1481594086.
+2020-08-18 12:02:54,658 859    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@584f54e6]
+2020-08-18 12:02:54,661 862    [           yiqian.main] DEBUG .xiaobao.dao.IUserDao.saveUser  - ==>  Preparing: insert into user(username,address,sex,birthday)values(?,?,?,?);
+2020-08-18 12:02:54,738 939    [           yiqian.main] DEBUG .xiaobao.dao.IUserDao.saveUser  - ==> Parameters: woshixiaoming(String), 9(String), 9(String), null
+2020-08-18 12:02:54,740 941    [           yiqian.main] DEBUG .xiaobao.dao.IUserDao.saveUser  - <==    Updates: 1
+2020-08-18 12:02:54,743 944    [           yiqian.main] DEBUG ao.IUserDao.saveUser!selectKey  - ==>  Preparing: select last_insert_id();
+2020-08-18 12:02:54,743 944    [           yiqian.main] DEBUG ao.IUserDao.saveUser!selectKey  - ==> Parameters:
+2020-08-18 12:02:54,813 1014   [           yiqian.main] DEBUG ao.IUserDao.saveUser!selectKey  - <==      Total: 1
+2020-08-18 12:03:36,172 0      [           yiqian.main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-08-18 12:03:36,248 76     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-08-18 12:03:36,248 76     [           yiqian.main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-08-18 12:03:36,249 77     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-08-18 12:03:36,249 77     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-08-18 12:03:36,249 77     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-08-18 12:03:36,250 78     [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:03:36,250 78     [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:03:36,296 124    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-08-18 12:03:36,296 124    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:03:36,297 125    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain/User.class
+2020-08-18 12:03:36,297 125    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain/User.class
+2020-08-18 12:03:36,298 126    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3 J
+2020-08-18 12:03:36,299 127    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.domain.User matches criteria [is assignable to Object]
+2020-08-18 12:03:36,341 169    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:03:36,342 170    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:03:36,342 170    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:03:36,342 170    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:03:36,351 179    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:03:36,351 179    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:03:36,353 181    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-08-18 12:03:36,354 182    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-08-18 12:03:36,354 182    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao2.class
+2020-08-18 12:03:36,355 183    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:03:36,355 183    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.class
+2020-08-18 12:03:36,355 183    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.class
+2020-08-18 12:03:36,356 184    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3   
+2020-08-18 12:03:36,356 184    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.xml
+2020-08-18 12:03:36,357 185    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.xml
+2020-08-18 12:03:36,357 185    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2020-08-18 12:03:36,358 186    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao2.class
+2020-08-18 12:03:36,358 186    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao2.class
+2020-08-18 12:03:36,358 186    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3    finall ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/xiaobao/domain/User;>; finallAnnotation RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user 
+2020-08-18 12:03:36,360 188    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.dao.IUserDao matches criteria [is assignable to Object]
+2020-08-18 12:03:36,360 188    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.dao.IUserDao2 matches criteria [is assignable to Object]
+2020-08-18 12:03:36,445 273    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-08-18 12:03:36,918 746    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - Created connection 1849015357.
+2020-08-18 12:03:36,919 747    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6e35bc3d]
+2020-08-18 12:03:36,922 750    [           yiqian.main] DEBUG dao.IUserDao2.finallAnnotation  - ==>  Preparing: select * from user
+2020-08-18 12:03:36,992 820    [           yiqian.main] DEBUG dao.IUserDao2.finallAnnotation  - ==> Parameters:
+2020-08-18 12:04:40,169 0      [           yiqian.main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-08-18 12:04:40,240 71     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-08-18 12:04:40,240 71     [           yiqian.main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-08-18 12:04:40,240 71     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-08-18 12:04:40,241 72     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-08-18 12:04:40,241 72     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-08-18 12:04:40,241 72     [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:04:40,242 73     [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:04:40,285 116    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-08-18 12:04:40,286 117    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:04:40,286 117    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain/User.class
+2020-08-18 12:04:40,286 117    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain/User.class
+2020-08-18 12:04:40,287 118    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3 J
+2020-08-18 12:04:40,289 120    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.domain.User matches criteria [is assignable to Object]
+2020-08-18 12:04:40,329 160    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:04:40,330 161    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:04:40,330 161    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:04:40,330 161    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:04:40,343 174    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:04:40,343 174    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:04:40,345 176    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-08-18 12:04:40,346 177    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-08-18 12:04:40,346 177    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao2.class
+2020-08-18 12:04:40,347 178    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:04:40,347 178    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.class
+2020-08-18 12:04:40,347 178    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.class
+2020-08-18 12:04:40,348 179    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3   
+2020-08-18 12:04:40,349 180    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.xml
+2020-08-18 12:04:40,349 180    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.xml
+2020-08-18 12:04:40,349 180    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2020-08-18 12:04:40,350 181    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao2.class
+2020-08-18 12:04:40,350 181    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao2.class
+2020-08-18 12:04:40,351 182    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3    finall ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/xiaobao/domain/User;>; finallAnnotation RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user 
+2020-08-18 12:04:40,353 184    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.dao.IUserDao matches criteria [is assignable to Object]
+2020-08-18 12:04:40,353 184    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.dao.IUserDao2 matches criteria [is assignable to Object]
+2020-08-18 12:04:40,423 254    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-08-18 12:04:40,835 666    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - Created connection 598357562.
+2020-08-18 12:04:40,836 667    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23aa363a]
+2020-08-18 12:04:40,838 669    [           yiqian.main] DEBUG dao.IUserDao2.finallAnnotation  - ==>  Preparing: select * from user
+2020-08-18 12:04:40,913 744    [           yiqian.main] DEBUG dao.IUserDao2.finallAnnotation  - ==> Parameters:
+2020-08-18 12:04:52,186 0      [           yiqian.main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-08-18 12:04:52,253 67     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-08-18 12:04:52,253 67     [           yiqian.main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-08-18 12:04:52,253 67     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-08-18 12:04:52,254 68     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-08-18 12:04:52,254 68     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-08-18 12:04:52,255 69     [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:04:52,255 69     [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:04:52,297 111    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-08-18 12:04:52,298 112    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:04:52,298 112    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain/User.class
+2020-08-18 12:04:52,298 112    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain/User.class
+2020-08-18 12:04:52,299 113    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3 J
+2020-08-18 12:04:52,300 114    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.domain.User matches criteria [is assignable to Object]
+2020-08-18 12:04:52,338 152    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:04:52,338 152    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:04:52,338 152    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:04:52,338 152    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:04:52,346 160    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:04:52,346 160    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:04:52,349 163    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-08-18 12:04:52,349 163    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-08-18 12:04:52,350 164    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao2.class
+2020-08-18 12:04:52,350 164    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:04:52,350 164    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.class
+2020-08-18 12:04:52,351 165    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.class
+2020-08-18 12:04:52,351 165    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3   
+2020-08-18 12:04:52,352 166    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.xml
+2020-08-18 12:04:52,352 166    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.xml
+2020-08-18 12:04:52,352 166    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2020-08-18 12:04:52,353 167    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao2.class
+2020-08-18 12:04:52,353 167    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao2.class
+2020-08-18 12:04:52,354 168    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3    finall ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/xiaobao/domain/User;>; finallAnnotation RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user 
+2020-08-18 12:04:52,355 169    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.dao.IUserDao matches criteria [is assignable to Object]
+2020-08-18 12:04:52,355 169    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.dao.IUserDao2 matches criteria [is assignable to Object]
+2020-08-18 12:04:52,430 244    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-08-18 12:04:52,858 672    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - Created connection 1481594086.
+2020-08-18 12:04:52,858 672    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@584f54e6]
+2020-08-18 12:04:52,861 675    [           yiqian.main] DEBUG .xiaobao.dao.IUserDao.saveUser  - ==>  Preparing: insert into user(username,address,sex,birthday)values(?,?,?,?);
+2020-08-18 12:04:52,952 766    [           yiqian.main] DEBUG .xiaobao.dao.IUserDao.saveUser  - ==> Parameters: woshixiaoming(String), 9(String), 9(String), null
+2020-08-18 12:04:52,954 768    [           yiqian.main] DEBUG .xiaobao.dao.IUserDao.saveUser  - <==    Updates: 1
+2020-08-18 12:04:52,957 771    [           yiqian.main] DEBUG ao.IUserDao.saveUser!selectKey  - ==>  Preparing: select last_insert_id();
+2020-08-18 12:04:52,957 771    [           yiqian.main] DEBUG ao.IUserDao.saveUser!selectKey  - ==> Parameters:
+2020-08-18 12:04:53,013 827    [           yiqian.main] DEBUG ao.IUserDao.saveUser!selectKey  - <==      Total: 1
+2020-08-18 12:06:16,159 0      [           yiqian.main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-08-18 12:06:16,225 66     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-08-18 12:06:16,225 66     [           yiqian.main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-08-18 12:06:16,225 66     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-08-18 12:06:16,226 67     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-08-18 12:06:16,226 67     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-08-18 12:06:16,227 68     [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:06:16,228 69     [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:06:16,276 117    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-08-18 12:06:16,277 118    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:06:16,277 118    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain/User.class
+2020-08-18 12:06:16,277 118    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain/User.class
+2020-08-18 12:06:16,278 119    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3 J
+2020-08-18 12:06:16,279 120    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.domain.User matches criteria [is assignable to Object]
+2020-08-18 12:06:16,320 161    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:06:16,321 162    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:06:16,321 162    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:06:16,321 162    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:06:16,328 169    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:06:16,329 170    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:06:16,331 172    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-08-18 12:06:16,332 173    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-08-18 12:06:16,332 173    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao2.class
+2020-08-18 12:06:16,333 174    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:06:16,333 174    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.class
+2020-08-18 12:06:16,333 174    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.class
+2020-08-18 12:06:16,334 175    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3   
+2020-08-18 12:06:16,334 175    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.xml
+2020-08-18 12:06:16,335 176    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.xml
+2020-08-18 12:06:16,335 176    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2020-08-18 12:06:16,335 176    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao2.class
+2020-08-18 12:06:16,336 177    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao2.class
+2020-08-18 12:06:16,336 177    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3    finall ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/xiaobao/domain/User;>; finallAnnotation RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user 
+2020-08-18 12:06:16,338 179    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.dao.IUserDao matches criteria [is assignable to Object]
+2020-08-18 12:06:16,338 179    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.dao.IUserDao2 matches criteria [is assignable to Object]
+2020-08-18 12:07:12,423 0      [           yiqian.main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-08-18 12:07:12,520 97     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-08-18 12:07:12,520 97     [           yiqian.main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-08-18 12:07:12,520 97     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-08-18 12:07:12,521 98     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-08-18 12:07:12,522 99     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-08-18 12:07:12,522 99     [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:07:12,523 100    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:07:12,574 151    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-08-18 12:07:12,574 151    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:07:12,575 152    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain/User.class
+2020-08-18 12:07:12,575 152    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain/User.class
+2020-08-18 12:07:12,576 153    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3 J
+2020-08-18 12:07:12,577 154    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.domain.User matches criteria [is assignable to Object]
+2020-08-18 12:07:12,637 214    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:07:12,637 214    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:07:12,637 214    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:07:12,638 215    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:07:12,646 223    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:07:12,647 224    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:07:12,650 227    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-08-18 12:07:12,650 227    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-08-18 12:07:12,651 228    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao2.class
+2020-08-18 12:07:12,651 228    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:07:12,651 228    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.class
+2020-08-18 12:07:12,651 228    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.class
+2020-08-18 12:07:12,652 229    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3    finall ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/xiaobao/domain/User;>; finallAnnotation RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user saveUser (Lcom/xiaobao/domain/User;)V 
+2020-08-18 12:07:12,654 231    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.xml
+2020-08-18 12:07:12,654 231    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.xml
+2020-08-18 12:07:12,655 232    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2020-08-18 12:07:12,656 233    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao2.class
+2020-08-18 12:07:12,656 233    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao2.class
+2020-08-18 12:07:12,657 234    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3    finall ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/xiaobao/domain/User;>; finallAnnotation RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user 
+2020-08-18 12:07:12,659 236    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.dao.IUserDao matches criteria [is assignable to Object]
+2020-08-18 12:07:12,659 236    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.dao.IUserDao2 matches criteria [is assignable to Object]
+2020-08-18 12:07:12,754 331    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-08-18 12:07:13,281 858    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - Created connection 2008106788.
+2020-08-18 12:07:13,282 859    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77b14724]
+2020-08-18 12:07:13,285 862    [           yiqian.main] DEBUG .dao.IUserDao.finallAnnotation  - ==>  Preparing: select * from user
+2020-08-18 12:07:13,369 946    [           yiqian.main] DEBUG .dao.IUserDao.finallAnnotation  - ==> Parameters:
+2020-08-18 12:08:12,400 0      [           yiqian.main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-08-18 12:08:12,479 79     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-08-18 12:08:12,479 79     [           yiqian.main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-08-18 12:08:12,480 80     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-08-18 12:08:12,480 80     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-08-18 12:08:12,481 81     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-08-18 12:08:12,481 81     [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:08:12,481 81     [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:08:12,527 127    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-08-18 12:08:12,527 127    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:08:12,528 128    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain/User.class
+2020-08-18 12:08:12,528 128    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain/User.class
+2020-08-18 12:08:12,529 129    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3 I
+2020-08-18 12:08:12,530 130    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.domain.User matches criteria [is assignable to Object]
+2020-08-18 12:08:12,577 177    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:08:12,577 177    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:08:12,577 177    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:08:12,577 177    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:08:12,586 186    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:08:12,586 186    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:08:12,589 189    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-08-18 12:08:12,590 190    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-08-18 12:08:12,590 190    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao2.class
+2020-08-18 12:08:12,591 191    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:08:12,591 191    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.class
+2020-08-18 12:08:12,591 191    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.class
+2020-08-18 12:08:12,592 192    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3    finall ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/xiaobao/domain/User;>; finallAnnotation RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user saveUser (Lcom/xiaobao/domain/User;)V 
+2020-08-18 12:08:12,594 194    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.xml
+2020-08-18 12:08:12,594 194    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.xml
+2020-08-18 12:08:12,595 195    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2020-08-18 12:08:12,596 196    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao2.class
+2020-08-18 12:08:12,596 196    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao2.class
+2020-08-18 12:08:12,596 196    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3    finall ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/xiaobao/domain/User;>; finallAnnotation RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user 
+2020-08-18 12:08:12,598 198    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.dao.IUserDao matches criteria [is assignable to Object]
+2020-08-18 12:08:12,598 198    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.dao.IUserDao2 matches criteria [is assignable to Object]
+2020-08-18 12:08:12,693 293    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-08-18 12:08:13,167 767    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - Created connection 2008106788.
+2020-08-18 12:08:13,168 768    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77b14724]
+2020-08-18 12:08:13,170 770    [           yiqian.main] DEBUG .dao.IUserDao.finallAnnotation  - ==>  Preparing: select * from user
+2020-08-18 12:08:13,266 866    [           yiqian.main] DEBUG .dao.IUserDao.finallAnnotation  - ==> Parameters:
+2020-08-18 12:08:13,343 943    [           yiqian.main] DEBUG .dao.IUserDao.finallAnnotation  - <==      Total: 7
+2020-08-18 12:08:23,990 0      [           yiqian.main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-08-18 12:08:24,068 78     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-08-18 12:08:24,068 78     [           yiqian.main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-08-18 12:08:24,069 79     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-08-18 12:08:24,069 79     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-08-18 12:08:24,070 80     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-08-18 12:08:24,071 81     [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:08:24,071 81     [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:08:24,120 130    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-08-18 12:08:24,121 131    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:08:24,121 131    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain/User.class
+2020-08-18 12:08:24,121 131    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain/User.class
+2020-08-18 12:08:24,122 132    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3 I
+2020-08-18 12:08:24,123 133    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.domain.User matches criteria [is assignable to Object]
+2020-08-18 12:08:24,162 172    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:08:24,162 172    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:08:24,162 172    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:08:24,162 172    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:08:24,174 184    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:08:24,174 184    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:08:24,176 186    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-08-18 12:08:24,177 187    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-08-18 12:08:24,178 188    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao2.class
+2020-08-18 12:08:24,178 188    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:08:24,178 188    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.class
+2020-08-18 12:08:24,179 189    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.class
+2020-08-18 12:08:24,179 189    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3    finall ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/xiaobao/domain/User;>; finallAnnotation RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user saveUser (Lcom/xiaobao/domain/User;)V 
+2020-08-18 12:08:24,181 191    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.xml
+2020-08-18 12:08:24,181 191    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.xml
+2020-08-18 12:08:24,181 191    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2020-08-18 12:08:24,182 192    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao2.class
+2020-08-18 12:08:24,182 192    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao2.class
+2020-08-18 12:08:24,183 193    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3    finall ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/xiaobao/domain/User;>; finallAnnotation RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user 
+2020-08-18 12:08:24,184 194    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.dao.IUserDao matches criteria [is assignable to Object]
+2020-08-18 12:08:24,184 194    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.dao.IUserDao2 matches criteria [is assignable to Object]
+2020-08-18 12:08:24,268 278    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-08-18 12:08:24,725 735    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - Created connection 1466917878.
+2020-08-18 12:08:24,725 735    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@576f63f6]
+2020-08-18 12:08:24,727 737    [           yiqian.main] DEBUG .xiaobao.dao.IUserDao.saveUser  - ==>  Preparing: insert into user(username,address,sex,birthday)values(?,?,?,?);
+2020-08-18 12:08:24,817 827    [           yiqian.main] DEBUG .xiaobao.dao.IUserDao.saveUser  - ==> Parameters: woshixiaoming(String), null, null, null
+2020-08-18 12:08:24,826 836    [           yiqian.main] DEBUG .xiaobao.dao.IUserDao.saveUser  - <==    Updates: 1
+2020-08-18 12:08:24,828 838    [           yiqian.main] DEBUG ao.IUserDao.saveUser!selectKey  - ==>  Preparing: select last_insert_id();
+2020-08-18 12:08:24,828 838    [           yiqian.main] DEBUG ao.IUserDao.saveUser!selectKey  - ==> Parameters:
+2020-08-18 12:08:24,886 896    [           yiqian.main] DEBUG ao.IUserDao.saveUser!selectKey  - <==      Total: 1
+2020-08-18 12:12:12,484 0      [           yiqian.main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-08-18 12:12:12,553 69     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-08-18 12:12:12,554 70     [           yiqian.main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-08-18 12:12:12,554 70     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-08-18 12:12:12,554 70     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-08-18 12:12:12,555 71     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-08-18 12:12:12,555 71     [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:12:12,555 71     [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:12:12,602 118    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-08-18 12:12:12,603 119    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:12:12,603 119    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain/User.class
+2020-08-18 12:12:12,603 119    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain/User.class
+2020-08-18 12:12:12,604 120    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3 L
+2020-08-18 12:12:12,606 122    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.domain.User matches criteria [is assignable to Object]
+2020-08-18 12:12:12,645 161    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:12:12,646 162    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:12:12,646 162    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:12:12,646 162    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:12:12,653 169    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:12:12,653 169    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:12:12,655 171    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-08-18 12:12:12,656 172    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-08-18 12:12:12,656 172    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao2.class
+2020-08-18 12:12:12,657 173    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:12:12,657 173    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.class
+2020-08-18 12:12:12,657 173    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.class
+2020-08-18 12:12:12,657 173    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3    finall ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/xiaobao/domain/User;>; finallAnnotation RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user saveUser (Lcom/xiaobao/domain/User;)V 
+2020-08-18 12:12:12,659 175    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.xml
+2020-08-18 12:12:12,659 175    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.xml
+2020-08-18 12:12:12,660 176    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2020-08-18 12:12:12,661 177    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao2.class
+2020-08-18 12:12:12,661 177    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao2.class
+2020-08-18 12:12:12,661 177    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3    finall ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/xiaobao/domain/User;>; finallAnnotation RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user 
+2020-08-18 12:12:12,663 179    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.dao.IUserDao matches criteria [is assignable to Object]
+2020-08-18 12:12:12,663 179    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.dao.IUserDao2 matches criteria [is assignable to Object]
+2020-08-18 12:12:12,750 266    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-08-18 12:12:13,251 767    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - Created connection 2008106788.
+2020-08-18 12:12:13,252 768    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77b14724]
+2020-08-18 12:12:13,254 770    [           yiqian.main] DEBUG .xiaobao.dao.IUserDao.saveUser  - ==>  Preparing: insert into user(username,address,sex,birthday)values(?,?,?,?);
+2020-08-18 12:12:13,361 877    [           yiqian.main] DEBUG .xiaobao.dao.IUserDao.saveUser  - ==> Parameters: 7777777(String), 北京市顺义区(String), 男(String), 2020-08-18 12:12:12.273(Timestamp)
+2020-08-18 12:12:13,364 880    [           yiqian.main] DEBUG .xiaobao.dao.IUserDao.saveUser  - <==    Updates: 1
+2020-08-18 12:12:13,366 882    [           yiqian.main] DEBUG ao.IUserDao.saveUser!selectKey  - ==>  Preparing: select last_insert_id();
+2020-08-18 12:12:13,366 882    [           yiqian.main] DEBUG ao.IUserDao.saveUser!selectKey  - ==> Parameters:
+2020-08-18 12:12:13,414 930    [           yiqian.main] DEBUG ao.IUserDao.saveUser!selectKey  - <==      Total: 1
+2020-08-18 12:13:42,718 0      [           yiqian.main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-08-18 12:13:42,811 93     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-08-18 12:13:42,811 93     [           yiqian.main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-08-18 12:13:42,812 94     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-08-18 12:13:42,812 94     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-08-18 12:13:42,813 95     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-08-18 12:13:42,813 95     [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:13:42,813 95     [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:13:42,885 167    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-08-18 12:13:42,887 169    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 12:13:42,887 169    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain/User.class
+2020-08-18 12:13:42,888 170    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain/User.class
+2020-08-18 12:13:42,890 172    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3 L
+2020-08-18 12:13:42,895 177    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.domain.User matches criteria [is assignable to Object]
+2020-08-18 12:13:42,960 242    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:13:42,960 242    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:13:42,961 243    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:13:42,962 244    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 12:13:42,974 256    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:13:42,975 257    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:13:42,978 260    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-08-18 12:13:42,979 261    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-08-18 12:13:42,979 261    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao2.class
+2020-08-18 12:13:42,980 262    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 12:13:42,980 262    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.class
+2020-08-18 12:13:42,980 262    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.class
+2020-08-18 12:13:42,981 263    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3    finall ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/xiaobao/domain/User;>; finallAnnotation RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user saveUser (Lcom/xiaobao/domain/User;)V 
+2020-08-18 12:13:42,983 265    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.xml
+2020-08-18 12:13:42,983 265    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.xml
+2020-08-18 12:13:42,984 266    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2020-08-18 12:13:42,985 267    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao2.class
+2020-08-18 12:13:42,985 267    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao2.class
+2020-08-18 12:13:42,986 268    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3    finall ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/xiaobao/domain/User;>; finallAnnotation RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user 
+2020-08-18 12:13:42,988 270    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.dao.IUserDao matches criteria [is assignable to Object]
+2020-08-18 12:13:42,989 271    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.dao.IUserDao2 matches criteria [is assignable to Object]
+2020-08-18 12:13:43,087 369    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-08-18 12:13:43,587 869    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - Created connection 2008106788.
+2020-08-18 12:13:43,588 870    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77b14724]
+2020-08-18 12:13:43,590 872    [           yiqian.main] DEBUG .xiaobao.dao.IUserDao.saveUser  - ==>  Preparing: insert into user(username,address,sex,birthday)values(?,?,?,?);
+2020-08-18 12:13:43,676 958    [           yiqian.main] DEBUG .xiaobao.dao.IUserDao.saveUser  - ==> Parameters: 8888888(String), 北京市顺义区(String), 男(String), 2020-08-18 12:13:42.383(Timestamp)
+2020-08-18 12:13:43,682 964    [           yiqian.main] DEBUG .xiaobao.dao.IUserDao.saveUser  - <==    Updates: 1
+2020-08-18 12:13:43,684 966    [           yiqian.main] DEBUG ao.IUserDao.saveUser!selectKey  - ==>  Preparing: select last_insert_id();
+2020-08-18 12:13:43,685 967    [           yiqian.main] DEBUG ao.IUserDao.saveUser!selectKey  - ==> Parameters:
+2020-08-18 12:13:43,745 1027   [           yiqian.main] DEBUG ao.IUserDao.saveUser!selectKey  - <==      Total: 1
+2020-08-18 12:13:43,748 1030   [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77b14724]
+2020-08-18 14:05:44,706 0      [           yiqian.main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-08-18 14:05:44,788 82     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-08-18 14:05:44,788 82     [           yiqian.main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-08-18 14:05:44,788 82     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-08-18 14:05:44,789 83     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-08-18 14:05:44,789 83     [           yiqian.main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-08-18 14:05:44,790 84     [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 14:05:44,790 84     [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 14:05:44,836 130    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-08-18 14:05:44,836 130    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain
+2020-08-18 14:05:44,837 131    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain/User.class
+2020-08-18 14:05:44,837 131    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/domain/User.class
+2020-08-18 14:05:44,838 132    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3 L
+2020-08-18 14:05:44,840 134    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.domain.User matches criteria [is assignable to Object]
+2020-08-18 14:05:44,890 184    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 14:05:44,890 184    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 14:05:44,890 184    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 14:05:44,890 184    [           yiqian.main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-08-18 14:05:44,902 196    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 14:05:44,903 197    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 14:05:44,905 199    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-08-18 14:05:44,906 200    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-08-18 14:05:44,907 201    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao2.class
+2020-08-18 14:05:44,907 201    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao
+2020-08-18 14:05:44,908 202    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.class
+2020-08-18 14:05:44,908 202    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.class
+2020-08-18 14:05:44,908 202    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3    finall ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/xiaobao/domain/User;>; finallAnnotation RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user saveUser (Lcom/xiaobao/domain/User;)V 
+2020-08-18 14:05:44,911 205    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.xml
+2020-08-18 14:05:44,911 205    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao.xml
+2020-08-18 14:05:44,911 205    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2020-08-18 14:05:44,912 206    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao2.class
+2020-08-18 14:05:44,912 206    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/Users/xiaobao/Git/Java/kuangjia/%e7%bb%83%e4%b9%a0/gqb/day01_01_mybatis/target/classes/com/xiaobao/dao/IUserDao2.class
+2020-08-18 14:05:44,913 207    [           yiqian.main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   3    finall ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/xiaobao/domain/User;>; finallAnnotation RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user 
+2020-08-18 14:05:44,915 209    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.dao.IUserDao matches criteria [is assignable to Object]
+2020-08-18 14:05:44,916 210    [           yiqian.main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.xiaobao.dao.IUserDao2 matches criteria [is assignable to Object]
+2020-08-18 14:05:45,028 322    [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-08-18 14:05:45,744 1038   [           yiqian.main] DEBUG source.pooled.PooledDataSource  - Created connection 1570470538.
+2020-08-18 14:05:45,745 1039   [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5d9b7a8a]
+2020-08-18 14:05:45,753 1047   [           yiqian.main] DEBUG iaobao.dao.IUserDao.updateUser  - ==>  Preparing: update user set username=?,birthday=?,sex=?,address=? where id =?
+2020-08-18 14:05:45,861 1155   [           yiqian.main] DEBUG iaobao.dao.IUserDao.updateUser  - ==> Parameters: 8888888(String), 2020-08-18 14:05:44.433(Timestamp), 男(String), 北京市顺义区(String), 41(Integer)
+2020-08-18 14:05:45,876 1170   [           yiqian.main] DEBUG iaobao.dao.IUserDao.updateUser  - <==    Updates: 1
+2020-08-18 14:05:45,876 1170   [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5d9b7a8a]
+2020-08-18 14:05:45,879 1173   [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5d9b7a8a]
+2020-08-18 14:05:45,880 1174   [           yiqian.main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5d9b7a8a]
+2020-08-18 14:05:45,880 1174   [           yiqian.main] DEBUG source.pooled.PooledDataSource  - Returned connection 1570470538 to pool.

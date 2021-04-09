@@ -1,0 +1,43 @@
+2020-08-19 14:19:34,022 0      [           main] INFO  te.jpa.internal.util.LogHelper  - HHH000204: Processing PersistenceUnitInfo [
+	name: myJpa
+	...]
+2020-08-19 14:19:34,105 83     [           main] INFO           org.hibernate.Version  - HHH000412: Hibernate Core {5.0.7.Final}
+2020-08-19 14:19:34,107 85     [           main] INFO   org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2020-08-19 14:19:34,108 86     [           main] INFO   org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2020-08-19 14:19:34,154 132    [           main] INFO  ate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-08-19 14:19:34,257 235    [           main] WARN   org.hibernate.orm.connections  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-08-19 14:19:34,269 247    [           main] INFO   org.hibernate.orm.connections  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql:///jpa]
+2020-08-19 14:19:34,270 248    [           main] INFO   org.hibernate.orm.connections  - HHH10001001: Connection properties: {password=****, user=root}
+2020-08-19 14:19:34,271 249    [           main] INFO   org.hibernate.orm.connections  - HHH10001003: Autocommit mode: false
+2020-08-19 14:19:34,273 251    [           main] INFO  rManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-08-19 14:19:34,956 934    [           main] INFO   org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-08-19 14:19:35,321 1299   [           main] INFO  nate.tool.hbm2ddl.SchemaUpdate  - HHH000228: Running hbm2ddl schema update
+2020-08-19 14:19:35,513 1491   [           main] INFO  ueryTranslatorFactoryInitiator  - HHH000397: Using ASTQueryTranslatorFactory
+2020-08-19 14:19:47,873 0      [           main] INFO  te.jpa.internal.util.LogHelper  - HHH000204: Processing PersistenceUnitInfo [
+	name: myJpa
+	...]
+2020-08-19 14:19:47,938 65     [           main] INFO           org.hibernate.Version  - HHH000412: Hibernate Core {5.0.7.Final}
+2020-08-19 14:19:47,940 67     [           main] INFO   org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2020-08-19 14:19:47,941 68     [           main] INFO   org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2020-08-19 14:19:47,990 117    [           main] INFO  ate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-08-19 14:19:48,069 196    [           main] WARN   org.hibernate.orm.connections  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-08-19 14:19:48,080 207    [           main] INFO   org.hibernate.orm.connections  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql:///jpa]
+2020-08-19 14:19:48,080 207    [           main] INFO   org.hibernate.orm.connections  - HHH10001001: Connection properties: {password=****, user=root}
+2020-08-19 14:19:48,080 207    [           main] INFO   org.hibernate.orm.connections  - HHH10001003: Autocommit mode: false
+2020-08-19 14:19:48,082 209    [           main] INFO  rManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-08-19 14:19:48,610 737    [           main] INFO   org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-08-19 14:19:49,016 1143   [           main] INFO  nate.tool.hbm2ddl.SchemaUpdate  - HHH000228: Running hbm2ddl schema update
+2020-08-19 14:20:13,425 0      [           main] INFO  te.jpa.internal.util.LogHelper  - HHH000204: Processing PersistenceUnitInfo [
+	name: myJpa
+	...]
+2020-08-19 14:20:13,504 79     [           main] INFO           org.hibernate.Version  - HHH000412: Hibernate Core {5.0.7.Final}
+2020-08-19 14:20:13,506 81     [           main] INFO   org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2020-08-19 14:20:13,508 83     [           main] INFO   org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2020-08-19 14:20:13,554 129    [           main] INFO  ate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-08-19 14:20:13,634 209    [           main] WARN   org.hibernate.orm.connections  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-08-19 14:20:13,643 218    [           main] INFO   org.hibernate.orm.connections  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql:///jpa]
+2020-08-19 14:20:13,643 218    [           main] INFO   org.hibernate.orm.connections  - HHH10001001: Connection properties: {password=****, user=root}
+2020-08-19 14:20:13,644 219    [           main] INFO   org.hibernate.orm.connections  - HHH10001003: Autocommit mode: false
+2020-08-19 14:20:13,645 220    [           main] INFO  rManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-08-19 14:20:14,178 753    [           main] INFO   org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-08-19 14:20:14,561 1136   [           main] INFO  nate.tool.hbm2ddl.SchemaUpdate  - HHH000228: Running hbm2ddl schema update

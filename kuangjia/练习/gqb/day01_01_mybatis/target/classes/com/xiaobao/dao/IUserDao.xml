@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.xiaobao.dao.IUserDao">
+    <select id="finall" resultType="user">
+        select * from user
+    </select>
+
+
+
+    <insert id="saveUser" parameterType="user">
+        <!-- 配置插入操作后，获取插入数据的id -->
+        <selectKey keyProperty="id" keyColumn="id" resultType="int" order="AFTER">
+            select last_insert_id();
+        </selectKey>
+        insert into user(username,address,sex,birthday)values(#{username},#{address},#{sex},#{birthday});
+    </insert>
+
+    <update id="updateUser" parameterType="user">
+        update user set username=#{username},birthday=#{birthday},sex=#{sex},address=#{address} where id =#{id}
+    </update>
+
+
+
+</mapper>

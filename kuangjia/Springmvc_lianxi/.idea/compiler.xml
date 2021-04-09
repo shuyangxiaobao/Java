@@ -6,8 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springmvc_day01_01_start" />
+        <module name="springmvc_day01_start" />
+        <module name="springmvc_day02_01_response" />
+        <module name="springmvc_day02_02_fileupload" />
+        <module name="springmvc_day02_02_fileupload_picture" />
+        <module name="springmvc_day02_03_exception" />
+        <module name="springmvc_day02_04_interceptor" />
+        <module name="springmvc_day03_ssm" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springmvc_day01_start" target="1.7" />
+      <module name="springmvc_day02_01_response" target="1.8" />
+      <module name="springmvc_day02_02_fileupload" target="1.8" />
+      <module name="springmvc_day02_02_fileupload_picture" target="1.7" />
+      <module name="springmvc_day02_03_exception" target="1.7" />
+      <module name="springmvc_day02_04_interceptor" target="1.7" />
+      <module name="springmvc_day03_ssm" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>

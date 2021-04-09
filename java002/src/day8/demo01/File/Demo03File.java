@@ -12,6 +12,7 @@ import java.io.File;
 public class Demo03File {
     public static void main(String[] args) {
         show04();
+        System.out.println("567890");
     }
 
     /*

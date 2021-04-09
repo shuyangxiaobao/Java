@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--配置spring创建容器时要扫描的包-->
+    <context:component-scan base-package="com.xiaobao"></context:component-scan>
+
+    <bean id="runner" class="org.apache.commons.dbutils.QueryRunner"></bean>
+
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"></property>
+        <property name="url" value="jdbc:mysql://localhost:3306/spring_test"></property>
+        <property name="username" value="root"></property>
+        <property name="password" value="123456abc"></property>
+    </bean>
+
+
+    <!--开启spring对注解AOP的支持-->
+    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+
+
+</beans>
